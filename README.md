@@ -18,7 +18,7 @@
 
 ## 1. Introduzione
 
-Benvenuti alla guida dettagliata di ConcordatoFacile, un sistema integrato per la gestione e l'elaborazione di contratti di locazione. Questo documento fornisce istruzioni passo-passo per utilizzare efficacemente il sistema, dalla raccolta dei dati iniziali attraverso JotForm fino alla generazione e all'archiviazione dei contratti finali.
+Benvenuti alla guida utente di ConcordatoFacile, un sistema per la gestione e l'elaborazione di contratti di locazione. Questo documento fornisce istruzioni passo-passo per utilizzare efficacemente il sistema, dalla raccolta dei dati iniziali attraverso JotForm fino alla generazione e all'archiviazione dei documenti finali.
 
 ConcordatoFacile è progettato per semplificare e automatizzare molti aspetti del processo di creazione dei contratti, ma è importante sottolineare che il controllo umano rimane un elemento cruciale per garantire l'accuratezza e la conformità legale dei documenti generati.
 
@@ -252,4 +252,4 @@ graph TD
 
 ## 14. Supporto e Contatti
 
-Questa guida rappresenta una panoramica dettagliata del processo di utilizzo di ConcordatoFacile, ma non è da considerarsi esaustiva o definitiva. Il sistema è in continua evoluzione e potrebbe subire modifiche nel tempo. Per qualsiasi problema o chiarimento, si prega di contattare il supporto tecnico all'indirizzo germ.riccio@gmail.com o telefonicamente al numero 3313815525.
+Questa guida rappresenta una panoramica del processo di utilizzo di ConcordatoFacile, ma non è da considerarsi esaustiva o definitiva. Il sistema è in continua evoluzione e potrebbe subire modifiche nel tempo. Per qualsiasi problema o chiarimento, si prega di contattare il supporto tecnico all'indirizzo germ.riccio@gmail.com o telefonicamente al numero 3313815525.
