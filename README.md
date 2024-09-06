@@ -215,7 +215,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Nella prima colonna (header "Elaborato"), inserire "Sì" nella cella corrispondente.
 
 3. **Effetti dell'azione:**
-   - Questa marcatura rimuoverà il contratto dalla lista dei moduli da elaborare.
+   - Questa operazione escluderà il modulo dalla coda di elaborazione.
    - Il sistema caricherà automaticamente il prossimo modulo non elaborato, se presente.
 
 ## 13. Diagramma di Flusso
