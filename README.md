@@ -1,20 +1,20 @@
 # ConcordatoFacile: Guida Utente
 
 ## Indice
-1. [Introduzione](#introduzione)
-2. [Prerequisiti](#prerequisiti)
-3. [Accesso e Navigazione Iniziale](#accesso-e-navigazione-iniziale)
-4. [Utilizzo del Modulo JotForm](#utilizzo-del-modulo-jotform)
-5. [Gestione dei Dati nel Foglio "Archivio Moduli"](#gestione-dei-dati-nel-foglio-archivio-moduli)
-6. [Elaborazione dei Moduli](#elaborazione-dei-moduli)
-7. [Gestione delle Anagrafiche](#gestione-delle-anagrafiche)
-8. [Configurazione dei Calcoli Iterativi](#configurazione-dei-calcoli-iterativi)
-9. [Salvataggio e Verifica dei Dati del Modulo](#salvataggio-e-verifica-dei-dati-del-modulo)
-10. [Generazione e Gestione della Documentazione](#generazione-e-gestione-della-documentazione)
-11. [Archiviazione e Invio della Bozza del Contratto](#archiviazione-e-invio-della-bozza-del-contratto)
-12. [Finalizzazione del Processo](#finalizzazione-del-processo)
-13. [Diagramma di Flusso](#diagramma-di-flusso)
-14. [Supporto e Contatti](#supporto-e-contatti)
+1. [Introduzione](#1-introduzione)
+2. [Prerequisiti](#2-prerequisiti)
+3. [Accesso e Navigazione Iniziale](#3-accesso-e-navigazione-iniziale)
+4. [Utilizzo del Modulo JotForm](#4-utilizzo-del-modulo-jotform)
+5. [Gestione dei Dati nel Foglio "Archivio Moduli"](#5-gestione-dei-dati-nel-foglio-archivio-moduli)
+6. [Elaborazione dei Moduli](#6-elaborazione-dei-moduli)
+7. [Gestione delle Anagrafiche](#7-gestione-delle-anagrafiche)
+8. [Configurazione dei Calcoli Iterativi](#8-configurazione-dei-calcoli-iterativi)
+9. [Salvataggio e Verifica dei Dati del Modulo](#9-salvataggio-e-verifica-dei-dati-del-modulo)
+10. [Generazione e Gestione della Documentazione](#10-generazione-e-gestione-della-documentazione)
+11. [Archiviazione e Invio della Bozza del Contratto](#11-archiviazione-e-invio-della-bozza-del-contratto)
+12. [Finalizzazione del Processo](#12-finalizzazione-del-processo)
+13. [Diagramma di Flusso](#13-diagramma-di-flusso)
+14. [Supporto e Contatti](#14-supporto-e-contatti)
 
 ## 1. Introduzione
 
