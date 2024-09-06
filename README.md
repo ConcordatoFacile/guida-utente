@@ -166,6 +166,8 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Se vengono rilevati errori (situazione improbabile), ripetere il processo di salvataggio.
    - In assenza di errori, si può procedere alla generazione della documentazione.
 
+**Nota sul doppio salvataggio:** Il doppio salvataggio è una misura di sicurezza. Questa procedura riduce al minimo i problemi di sincronizzazione tra il vostro dispositivo e i server di Google.
+
 ## 10. Generazione e Gestione della Documentazione
 
 1. **Avvio della generazione dei documenti:**
