@@ -20,7 +20,7 @@
 
 Benvenuti alla guida utente di ConcordatoFacile, un sistema per la gestione e l'elaborazione di contratti di locazione a canone concordato. Questo documento fornisce istruzioni passo-passo per utilizzare efficacemente il sistema, dalla raccolta dei dati iniziali attraverso JotForm fino alla generazione e all'archiviazione dei documenti finali.
 
-ConcordatoFacile è progettato per semplificare e automatizzare molti aspetti del processo di creazione dei contratti, ma è importante sottolineare che il controllo umano rimane un elemento cruciale per garantire l'accuratezza e la conformità legale dei documenti generati.
+ConcordatoFacile è stato progettato per semplificare ogni fase del processo di creazione dei contratti, riducendo al minimo l'intervento manuale. Tuttavia, è fondamentale ricordare che il controllo umano rimane essenziale per verificare la correttezza e la conformità legale dei documenti generati.
 
 ## 2. Prerequisiti
 
