@@ -1,4 +1,4 @@
-# README ConcordatoFacile - Guida Dettagliata
+# ConcordatoFacile: Guida Utente
 
 ## Indice
 1. [Introduzione](#introduzione)
