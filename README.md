@@ -1,5 +1,11 @@
 # Guida Utente ConcordatoFacile
 
+## Introduzione
+Benvenuti nella guida utente di ConcordatoFacile, il programma che semplifica la gestione dei contratti di locazione. Questo documento vi guiderà passo dopo passo nell'utilizzo di ConcordatoFacile, fornendo istruzioni dettagliate per ogni fase del processo.
+
+## Prerequisiti
+Per utilizzare ConcordatoFacile, è necessario disporre delle credenziali di accesso all'account Google associato al programma. Assicuratevi di avere a portata di mano queste informazioni prima di iniziare.
+
 ## Indice
 1. [Accesso e Navigazione Iniziale](#1-accesso-e-navigazione-iniziale)
 2. [Avvio del Programma](#2-avvio-del-programma)
