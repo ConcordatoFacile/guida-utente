@@ -189,7 +189,6 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
 
 4. **Modifiche manuali:**
    - Se necessario, apportare modifiche ai documenti generati.
-   - Ricordare che ConcordatoFacile è un supporto, non un sostituto del controllo umano.
    - Prestare particolare attenzione a dettagli specifici che potrebbero richiedere personalizzazione.
 
 ## 11. Archiviazione e Invio della Bozza del Contratto
@@ -204,7 +203,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Questa azione archivierà automaticamente il contratto in Google Drive.
 
 3. **Opzioni di invio:**
-   - Durante il processo di archiviazione, sarà possibile scegliere se inviare automaticamente il documento al membro dell'associazione che ha richiesto la stesura.
+   - Durante il processo di archiviazione, sarà possibile scegliere se inviare automaticamente i documenti al membro dell'associazione che li ha richiesti.
    - Seguire le istruzioni a schermo per completare l'invio, se desiderato.
 
 ## 12. Finalizzazione del Processo
