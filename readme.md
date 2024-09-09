@@ -245,21 +245,25 @@ graph TD
     L --> M{Errori presenti?}
     M -->|Sì| N[Correzione dati in 'Archivio Moduli']
     N --> O[Gestione Anagrafiche]
-    O --> L
-    M -->|No| P[Abilitazione calcoli iterativi]
-    P --> Q[Salvataggio dati modulo x2]
-    Q --> R[Verifica dati modulo]
-    R --> S{Verifica OK?}
-    S -->|No| Q
-    S -->|Sì| T[Generazione documentazione]
-    T --> U[Controllo manuale documentazione]
-    U --> V[Disattivazione calcoli iterativi]
-    V --> W[Archiviazione e invio bozza contratto]
-    W --> X[Contrassegna modulo come elaborato]
-    X --> Y{Altri moduli da elaborare?}
-    Y -->|Sì| J
-    Y -->|No| Z1[Fine]
-    Z --> Z1
+    O --> P{Nuovo membro?}
+    P -->|Sì| Q[Nuova Iscrizione]
+    Q --> R[Inserimento data iscrizione]
+    R --> L
+    P -->|No| L
+    M -->|No| S[Abilitazione calcoli iterativi]
+    S --> T[Salvataggio dati modulo x2]
+    T --> U[Verifica dati modulo]
+    U --> V{Verifica OK?}
+    V -->|No| T
+    V -->|Sì| W[Generazione documentazione]
+    W --> X[Controllo manuale documentazione]
+    X --> Y[Disattivazione calcoli iterativi]
+    Y --> AA[Archiviazione e invio bozza contratto]
+    AA --> BB[Contrassegna modulo come elaborato]
+    BB --> CC{Altri moduli da elaborare?}
+    CC -->|Sì| J
+    CC -->|No| DD[Fine]
+    Z --> DD
 ```
 
 ## 14. Supporto e Contatti
