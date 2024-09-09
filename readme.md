@@ -235,27 +235,31 @@ graph TD
     C --> D[Apertura foglio Google Sheets ConcordatoFacile]
     D --> E[Clic su 'Start']
     E --> F{Licenza valida?}
-    F -->|Sì| G[Appare pulsante 'Funzioni ConcordatoFacile']
     F -->|No| Z[Contatta supporto]
+    F -->|Sì| G[Appare pulsante 'Funzioni ConcordatoFacile']
     G --> H[Compilazione modulo JotForm]
-    H --> I[Verifica nuovi moduli in 'archivio moduli']
-    I --> J[Apertura 'modulo in elaborazione']
+    H --> I[Verifica nuovi moduli in 'Archivio Moduli']
+    I --> J[Apertura 'Modulo in Elaborazione']
     J --> K[Caricamento documenti in Google Drive]
     K --> L[Verifica errori nei dati]
     L --> M{Errori presenti?}
-    M -->|Sì| N[Correzione dati in 'archivio moduli']
-    N --> L
-    M -->|No| O[Abilitazione calcoli iterativi]
-    O --> P[Salvataggio dati modulo x2]
-    P --> Q[Verifica dati modulo]
-    Q --> R{Verifica OK?}
-    R -->|No| P
-    R -->|Sì| S[Generazione documentazione]
-    S --> T[Controllo manuale documentazione]
-    T --> U[Archiviazione e invio bozza contratto]
-    U --> V[Contrassegna modulo come elaborato]
-    V --> W[Fine]
-    Z --> W
+    M -->|Sì| N[Correzione dati in 'Archivio Moduli']
+    N --> O[Gestione Anagrafiche]
+    O --> L
+    M -->|No| P[Abilitazione calcoli iterativi]
+    P --> Q[Salvataggio dati modulo x2]
+    Q --> R[Verifica dati modulo]
+    R --> S{Verifica OK?}
+    S -->|No| Q
+    S -->|Sì| T[Generazione documentazione]
+    T --> U[Controllo manuale documentazione]
+    U --> V[Disattivazione calcoli iterativi]
+    V --> W[Archiviazione e invio bozza contratto]
+    W --> X[Contrassegna modulo come elaborato]
+    X --> Y{Altri moduli da elaborare?}
+    Y -->|Sì| J
+    Y -->|No| Z1[Fine]
+    Z --> Z1
 ```
 
 ## 14. Supporto e Contatti
