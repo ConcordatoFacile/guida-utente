@@ -190,6 +190,13 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
 4. **Modifiche manuali:**
    - Se necessario, apportare modifiche ai documenti generati.
    - Prestare particolare attenzione a dettagli specifici che potrebbero richiedere personalizzazione.
+  
+5. **Disattivazione dei calcoli iterativi:**
+   - Dopo aver generato e controllato tutti i documenti, è importante disattivare i calcoli iterativi.
+   - Tornare alla barra degli strumenti e cliccare su "File".
+   - Selezionare nuovamente "Impostazioni" o "Settings".
+   - Nella scheda "Calcolo" o "Calculations", disattivare l'opzione "Calcoli iterativi" o "Iterative calculations".
+   - Questa azione è cruciale per evitare rallentamenti nel foglio di calcolo durante le successive operazioni.
 
 ## 11. Archiviazione e Invio della Bozza del Contratto
 
