@@ -114,7 +114,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Se si notano problemi con i codici fiscali, controllare e correggere manualmente i nomi dei comuni nel foglio "Archivio Moduli".
    - Esempio: Se "Sant'Antimo" appare come "Sant\`Antimo", sostituire il carattere ` con un apostrofo standard (').
 
-5. **Dashboard di errori:**
+5. **Dashboard errori:**
    - Nel foglio "Modulo in Elaborazione" è presente una dashboard che mostra il numero di errori nei dati.
    - Prestare attenzione a questa dashboard per garantire la corretta elaborazione del modulo.
 
