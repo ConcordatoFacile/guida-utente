@@ -170,7 +170,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
 
 4. **Verifica dei dati salvati:**
    - Dopo aver completato i due salvataggi, cliccare su "Verifica dati modulo" nel menu "Funzioni ConcordatoFacile".
-   - Se vengono rilevati errori (situazione improbabile), ripetere il processo di salvataggio.
+   - Se vengono rilevati errori (situazione improbabile), ripetere il processo di salvataggio e verifica.
    - In assenza di errori, si può procedere alla generazione della documentazione.
 
 **Nota sul doppio salvataggio:** Il doppio salvataggio è una misura di sicurezza. Questa procedura riduce al minimo i problemi di sincronizzazione tra il vostro dispositivo e i server di Google.
