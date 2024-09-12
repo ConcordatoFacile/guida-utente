@@ -107,11 +107,11 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Individuare la riga corrispondente al modulo in elaborazione.
    - Apportare le modifiche necessarie direttamente nelle celle appropriate del foglio "Archivio Moduli".
   
-4. **Gestione dei caratteri speciali nei nomi dei comuni:**
-   - Prestare particolare attenzione ai nomi dei comuni che contengono apostrofi o altri caratteri speciali.
+4. **Gestione dei caratteri speciali nei campi di testo:**
+   - Prestare particolare attenzione ai campi di testo che contengono apostrofi o altri caratteri speciali.
    - In alcuni casi, specialmente quando il modulo JotForm viene compilato da dispositivi mobili, possono essere inseriti caratteri non standard (come ` invece di ').
-   - Questi caratteri non standard possono causare errori nella generazione dei codici fiscali.
-   - Se si notano problemi con i codici fiscali, controllare e correggere manualmente i nomi dei comuni nel foglio "Archivio Moduli".
+   - Questi caratteri non standard possono causare errori nell'elaborazione dei dati o nella generazione dei codici fiscali.
+   - Se si notano problemi con l'elaborazione dei dati o con i codici fiscali, controllare e correggere manualmente i campi di testo nel foglio "Archivio Moduli".
    - Esempio: Se "Sant'Antimo" appare come "Sant\`Antimo", sostituire il carattere ` con un apostrofo standard (').
 
 5. **Dashboard errori:**
