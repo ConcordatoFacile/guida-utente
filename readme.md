@@ -88,8 +88,8 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Le celle vuote in questa colonna indicano moduli non ancora elaborati.
 
 4. **Importanza dell'integrità dei dati:**
-   - È fondamentale non modificare manualmente i dati in altri fogli del documento, poiché ciò potrebbe compromettere il funzionamento del sistema.
    - Tutte le modifiche ai dati devono essere effettuate esclusivamente nel foglio "Archivio Moduli".
+   - È fondamentale non modificare manualmente i dati in altri fogli del documento, poiché ciò potrebbe compromettere il funzionamento del programma.
 
 ## 6. Elaborazione dei Moduli
 
@@ -106,8 +106,15 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Per correggere questi dati, tornare al foglio "Archivio Moduli".
    - Individuare la riga corrispondente al modulo in elaborazione.
    - Apportare le modifiche necessarie direttamente nelle celle appropriate del foglio "Archivio Moduli".
+  
+4. **Gestione dei caratteri speciali nei nomi dei comuni:**
+   - Prestare particolare attenzione ai nomi dei comuni che contengono apostrofi o altri caratteri speciali.
+   - In alcuni casi, specialmente quando il modulo JotForm viene compilato da dispositivi mobili, possono essere inseriti caratteri non standard (come ` invece di ').
+   - Questi caratteri non standard possono causare errori nella generazione dei codici fiscali.
+   - Se si notano problemi con i codici fiscali, controllare e correggere manualmente i nomi dei comuni nel foglio "Archivio Moduli".
+   - Esempio: Se "Sant'Antimo" appare come "Sant\`Antimo", sostituire il carattere ` con un apostrofo standard (').
 
-4. **Dashboard di errori:**
+5. **Dashboard di errori:**
    - Nel foglio "Modulo in Elaborazione" è presente una dashboard che mostra il numero di errori nei dati.
    - Prestare attenzione a questa dashboard per garantire la corretta elaborazione del modulo.
 
