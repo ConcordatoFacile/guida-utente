@@ -30,7 +30,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
 - Un browser web aggiornato (preferibilmente Google Chrome o Mozilla Firefox)
 - Familiarità di base con Google Drive e Google Sheets
 - Autorizzazioni necessarie per accedere e modificare i documenti in Google Drive
-- Una connessione internet stabile
+- **Una connessione internet stabile**: si consiglia una velocità minima di 30 Mbps. Connessioni lente o instabili possono causare problemi di sincronizzazione, come errori nei calcoli, mancati aggiornamenti dei dati o fallimento nel salvataggio delle modifiche apportate ai documenti.
 
 ## 3. Accesso e Navigazione Iniziale
 
