@@ -18,7 +18,7 @@
 
 ## 1. Introduzione
 
-Benvenuti alla guida utente di ConcordatoFacile, un sistema per la gestione e l'elaborazione di contratti di locazione a canone concordato. Questo documento fornisce istruzioni passo-passo per utilizzare efficacemente il sistema, dalla raccolta dei dati iniziali attraverso JotForm fino alla generazione e all'archiviazione dei documenti finali.
+Benvenuti alla guida utente di ConcordatoFacile, un programma per la gestione e l'elaborazione di contratti di locazione a canone concordato. Questo documento fornisce istruzioni passo-passo per utilizzare efficacemente il programma, dalla raccolta dei dati iniziali attraverso JotForm fino alla generazione e all'archiviazione dei documenti finali.
 
 ConcordatoFacile è stato progettato per semplificare ogni fase del processo di creazione dei contratti, riducendo al minimo l'intervento manuale. Tuttavia, è fondamentale ricordare che il controllo umano rimane essenziale per verificare la correttezza e la conformità legale dei documenti generati.
 
@@ -41,14 +41,14 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
 2. **Navigazione su Google Drive:**
    - Una volta effettuato l'accesso, aprire Google Drive dal menu delle applicazioni Google.
    - Nella sezione "Il mio Drive", individuare la cartella denominata "ConcordatoFacile".
-   - Aprire questa cartella per accedere ai documenti del sistema.
+   - Aprire questa cartella per accedere ai documenti del programma.
 
 3. **Apertura del foglio di lavoro principale:**
-   - All'interno della cartella ConcordatoFacile, cercare il documento Google Sheets con "concordatofacile" nel nome (identificabile dall'icona verde caratteristica di Google Sheets).
-   - Aprire questo documento facendo doppio clic sul suo nome.
+   - All'interno della cartella ConcordatoFacile, cercare il file Google Sheets con "concordatofacile" nel nome (identificabile dall'icona verde caratteristica di Google Sheets).
+   - Aprire questo file facendo doppio clic sul suo nome.
 
 4. **Interfaccia del foglio di lavoro:**
-   - Una volta aperto il documento, si presenterà l'interfaccia standard di Google Sheets.
+   - Una volta aperto il file, si presenterà l'interfaccia standard di Google Sheets.
    - Familiarizzare con la barra degli strumenti nella parte superiore, che inizia con il menu "File" a sinistra.
 
 5. **Attivazione delle funzionalità di ConcordatoFacile:**
@@ -75,7 +75,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
 
 1. **Navigazione al foglio "Archivio Moduli":**
    - Dopo la compilazione del modulo JotForm, tornare al file Google Sheets.
-   - Selezionare il foglio denominato "Archivio Moduli" dalla barra inferiore del documento.
+   - Selezionare il foglio denominato "Archivio Moduli" dalla barra inferiore del file.
 
 2. **Struttura del foglio "Archivio Moduli":**
    - In questo foglio, le informazioni raccolte tramite i moduli JotForm sono archiviate orizzontalmente.
@@ -89,7 +89,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
 
 4. **Importanza dell'integrità dei dati:**
    - Tutte le modifiche ai dati devono essere effettuate **esclusivamente** nel foglio "Archivio Moduli".
-   - È fondamentale non modificare manualmente i dati in altri fogli del documento, poiché ciò **potrebbe compromettere il funzionamento del programma**.
+   - È fondamentale non modificare manualmente i dati in altri fogli del file, poiché ciò **potrebbe compromettere il funzionamento del programma**.
 
    **Non modificare l'ordine delle colonne:** L'ordine delle colonne nel foglio "Archivio Moduli" è critico per il corretto funzionamento di ConcordatoFacile. Se si nota che l'ordine delle colonne è stato accidentalmente modificato, **contattare immediatamente il supporto tecnico** prima di procedere con qualsiasi altra operazione.
 
@@ -109,11 +109,11 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Individuare la riga corrispondente al modulo in elaborazione.
    - Apportare le modifiche necessarie direttamente nelle celle appropriate del foglio "Archivio Moduli".
 
-   **Problema noto:** I nomi delle colonne nel foglio "Archivio Moduli" potrebbero non corrispondere esattamente ai dati visualizzati nelle righe. Per individuare il valore o il campo specifico che si desidera modificare, si consiglia di:
+   **Problema noto:** I nomi delle colonne nel foglio "Archivio Moduli" potrebbero non corrispondere esattamente ai dati visualizzati nelle righe. Per individuare il campo specifico che si desidera modificare, si consiglia di:
 
    - **Identificare la riga** su cui si sta lavorando.
-   - Utilizzare la funzione "Trova" (**Ctrl+F**) per **cercare direttamente il valore** che si intende correggere all'interno della riga selezionata.
-   - **Non fare affidamento sui nomi delle colonne** per individuare la cella, ma utilizzare la ricerca per valore come descritto sopra.
+   - Utilizzare la funzione "Trova" (**Ctrl+F**) per **cercare direttamente il contenuto** che si intende correggere all'interno della riga selezionata.
+   - **Non fare affidamento sui nomi delle colonne** per individuare la cella, ma utilizzare la ricerca per contenuto come descritto sopra.
   
 4. **Gestione dei caratteri speciali nei campi di testo:**
    - Prestare particolare attenzione ai campi di testo che contengono apostrofi o altri caratteri speciali.
@@ -239,7 +239,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
 
 3. **Effetti dell'azione:**
    - Questa operazione escluderà il modulo dalla coda di elaborazione.
-   - Il sistema caricherà automaticamente il prossimo modulo non elaborato, se presente.
+   - Il programma caricherà automaticamente il prossimo modulo non elaborato, se presente.
 
 ## 13. Diagramma di Flusso
 
@@ -283,4 +283,4 @@ graph TD
 
 ## 14. Supporto e Contatti
 
-Questa guida rappresenta una panoramica del processo di utilizzo di ConcordatoFacile, ma non è da considerarsi esaustiva o definitiva. Il sistema è in continua evoluzione e potrebbe subire modifiche nel tempo. Per qualsiasi problema o chiarimento, si prega di contattare il supporto tecnico all'indirizzo germ.riccio@gmail.com o telefonicamente al numero 3313815525.
+Questa guida rappresenta una panoramica del processo di utilizzo di ConcordatoFacile, ma non è da considerarsi esaustiva o definitiva. Il programma è in continua evoluzione e potrebbe subire modifiche nel tempo. Per qualsiasi problema o chiarimento, si prega di contattare il supporto tecnico all'indirizzo germ.riccio@gmail.com o telefonicamente al numero 3313815525.
