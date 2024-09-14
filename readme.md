@@ -110,7 +110,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    **Problema noto:** I nomi delle colonne nel foglio "Archivio Moduli" potrebbero non corrispondere esattamente ai dati visualizzati nelle righe. Per individuare il valore o il campo specifico che si desidera modificare, si consiglia di:
 
    - **Identificare la riga** su cui si sta lavorando.
-   - Utilizzare la funzione "Trova" (**Ctrl+F**) per **cercare direttamente il valore** che si intende correggere all'interno della riga.
+   - Utilizzare la funzione "Trova" (**Ctrl+F**) per **cercare direttamente il valore** che si intende correggere all'interno della riga selezionata.
    - **Non fare affidamento sui nomi delle colonne** per individuare la cella, ma utilizzare la ricerca per valore come descritto sopra.
   
 4. **Gestione dei caratteri speciali nei campi di testo:**
