@@ -106,6 +106,12 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Per correggere questi dati, tornare al foglio "Archivio Moduli".
    - Individuare la riga corrispondente al modulo in elaborazione.
    - Apportare le modifiche necessarie direttamente nelle celle appropriate del foglio "Archivio Moduli".
+
+   **Problema noto:** I nomi delle colonne nel foglio "Archivio Moduli" potrebbero non corrispondere esattamente ai dati visualizzati nelle righe. Per individuare il valore o il campo specifico che si desidera modificare, si consiglia di:
+
+   - **Identificare la riga** su cui si sta lavorando.
+   - Utilizzare la funzione "Trova" (**Ctrl+F**) per **cercare direttamente il valore** che si intende correggere all'interno della riga.
+   - **Non fare affidamento sui nomi delle colonne** per individuare la cella, ma utilizzare la ricerca per valore come descritto sopra.
   
 4. **Gestione dei caratteri speciali nei campi di testo:**
    - Prestare particolare attenzione ai campi di testo che contengono apostrofi o altri caratteri speciali.
@@ -173,7 +179,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Se vengono rilevati errori (situazione improbabile), ripetere il processo di salvataggio e verifica.
    - In assenza di errori, si può procedere alla generazione della documentazione.
 
-**Nota sul doppio salvataggio:** Il doppio salvataggio è una misura di sicurezza. Questa procedura riduce al minimo i problemi di sincronizzazione tra il vostro dispositivo e i server di Google.
+   **Nota sul doppio salvataggio:** Il doppio salvataggio è una misura di sicurezza. Questa procedura riduce al minimo i problemi di sincronizzazione tra il vostro dispositivo e i server di Google.
 
 ## 10. Generazione e Gestione della Documentazione
 
