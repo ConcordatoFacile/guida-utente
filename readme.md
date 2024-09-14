@@ -88,8 +88,12 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Le celle vuote in questa colonna indicano moduli non ancora elaborati.
 
 4. **Importanza dell'integrità dei dati:**
-   - Tutte le modifiche ai dati devono essere effettuate esclusivamente nel foglio "Archivio Moduli".
-   - È fondamentale non modificare manualmente i dati in altri fogli del documento, poiché ciò potrebbe compromettere il funzionamento del programma.
+   - Tutte le modifiche ai dati devono essere effettuate **esclusivamente** nel foglio "Archivio Moduli".
+   - È fondamentale non modificare manualmente i dati in altri fogli del documento, poiché ciò **potrebbe compromettere il funzionamento del programma**.
+
+5. **AVVERTENZA IMPORTANTE: Non modificare l'ordine delle colonne**
+   - L'ordine delle colonne nel foglio "Archivio Moduli" è critico per il corretto funzionamento di ConcordatoFacile.
+   - Se si nota che l'ordine delle colonne è stato accidentalmente modificato, **contattare immediatamente il supporto tecnico** prima di procedere con qualsiasi altra operazione.
 
 ## 6. Elaborazione dei Moduli
 
