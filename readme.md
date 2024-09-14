@@ -18,7 +18,7 @@
 
 ## 1. Introduzione
 
-Benvenuti alla guida utente di ConcordatoFacile, un programma per la gestione e l'elaborazione di contratti di locazione a canone concordato. Questo documento fornisce istruzioni passo-passo per utilizzare efficacemente il programma, dalla raccolta dei dati iniziali attraverso JotForm fino alla generazione e all'archiviazione dei documenti finali.
+Benvenuti alla guida utente di ConcordatoFacile, un sistema per la gestione e l'elaborazione di contratti di locazione a canone concordato. Questo documento fornisce istruzioni passo-passo per utilizzare efficacemente il sistema, dalla raccolta dei dati iniziali attraverso JotForm fino alla generazione e all'archiviazione dei documenti finali.
 
 ConcordatoFacile è stato progettato per semplificare ogni fase del processo di creazione dei contratti, riducendo al minimo l'intervento manuale. Tuttavia, è fondamentale ricordare che il controllo umano rimane essenziale per verificare la correttezza e la conformità legale dei documenti generati.
 
@@ -41,7 +41,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
 2. **Navigazione su Google Drive:**
    - Una volta effettuato l'accesso, aprire Google Drive dal menu delle applicazioni Google.
    - Nella sezione "Il mio Drive", individuare la cartella denominata "ConcordatoFacile".
-   - Aprire questa cartella per accedere ai documenti del programma.
+   - Aprire questa cartella per accedere ai documenti del sistema.
 
 3. **Apertura del foglio di lavoro principale:**
    - All'interno della cartella ConcordatoFacile, cercare il file Google Sheets con "concordatofacile" nel nome (identificabile dall'icona verde caratteristica di Google Sheets).
@@ -89,7 +89,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
 
 4. **Importanza dell'integrità dei dati:**
    - Tutte le modifiche ai dati devono essere effettuate **esclusivamente** nel foglio "Archivio Moduli".
-   - È fondamentale non modificare manualmente i dati in altri fogli del file, poiché ciò **potrebbe compromettere il funzionamento del programma**.
+   - È fondamentale non modificare manualmente i dati in altri fogli del file, poiché ciò **potrebbe compromettere il funzionamento del sistema**.
 
    **Non modificare l'ordine delle colonne:** L'ordine delle colonne nel foglio "Archivio Moduli" è critico per il corretto funzionamento di ConcordatoFacile. Se si nota che l'ordine delle colonne è stato accidentalmente modificato, **contattare immediatamente il supporto tecnico** prima di procedere con qualsiasi altra operazione.
 
@@ -135,7 +135,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
 2. **Iscrizione di nuovi membri:**
    - Navigare al foglio "Gestione Anagrafiche".
    - Aprire il menu "Funzioni ConcordatoFacile" e selezionare "Nuova Iscrizione".
-   - Il programma inserirà automaticamente i dati del nuovo membro nel database delle anagrafiche.
+   - Il sistema inserirà automaticamente i dati del nuovo membro nel database delle anagrafiche.
 
 3. **Inserimento della data di iscrizione:**
    - Nella riga del nuovo membro, individuare la colonna con l'header arancione che richiede la data di iscrizione.
@@ -239,7 +239,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
 
 3. **Effetti dell'azione:**
    - Questa operazione escluderà il modulo dalla coda di elaborazione.
-   - Il programma caricherà automaticamente il prossimo modulo non elaborato, se presente.
+   - Il sistema caricherà automaticamente il prossimo modulo non elaborato, se presente.
 
 ## 13. Diagramma di Flusso
 
@@ -283,4 +283,4 @@ graph TD
 
 ## 14. Supporto e Contatti
 
-Questa guida rappresenta una panoramica del processo di utilizzo di ConcordatoFacile, ma non è da considerarsi esaustiva o definitiva. Il programma è in continua evoluzione e potrebbe subire modifiche nel tempo. Per qualsiasi problema o chiarimento, si prega di contattare il supporto tecnico all'indirizzo germ.riccio@gmail.com o telefonicamente al numero 3313815525.
+Questa guida rappresenta una panoramica del processo di utilizzo di ConcordatoFacile, ma non è da considerarsi esaustiva o definitiva. Il sistema è in continua evoluzione e potrebbe subire modifiche nel tempo. Per qualsiasi problema o chiarimento, si prega di contattare il supporto tecnico all'indirizzo germ.riccio@gmail.com o telefonicamente al numero 3313815525.
