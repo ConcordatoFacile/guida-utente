@@ -74,8 +74,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
 ## 5. Gestione dei Dati nel Foglio "Archivio Moduli"
 
 1. **Navigazione al foglio "Archivio Moduli":**
-   - Dopo la compilazione del modulo JotForm, tornare al file Google Sheets.
-   - Selezionare il foglio denominato "Archivio Moduli" dalla barra inferiore del file.
+   - Una volta compilato il modulo JotForm, tornare al file Google Sheets e selezionare il foglio "Archivio Moduli" dalla barra in basso.
 
 2. **Struttura del foglio "Archivio Moduli":**
    - In questo foglio, le informazioni raccolte tramite i moduli JotForm sono archiviate orizzontalmente.
