@@ -1,4 +1,4 @@
-# ConcordatoFacile: Guida Utente
+# ConcordatoFacile: Guida utente
 
 ## Indice
 1. [Introduzione](#1-introduzione)
