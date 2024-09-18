@@ -52,10 +52,11 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Familiarizzare con la barra degli strumenti nella parte superiore, che inizia con il menu "File" a sinistra.
 
 5. **Attivazione delle funzionalità di ConcordatoFacile:**
-   - Sulla destra della barra degli strumenti, individuare il pulsante "Start".
-   - Cliccare su "Start" per avviare il processo di controllo della licenza di ConcordatoFacile.
-   - Leggere attentamente l'avviso che appare e cliccare su "OK" per procedere.
-   - Se la licenza è valida, apparirà un nuovo pulsante denominato "Funzioni ConcordatoFacile" alla destra del pulsante "Start".
+   - Nella barra degli strumenti, individuare il pulsante "Start" situato sulla destra.
+   - Fare clic sul pulsante **"Start"**. Verrà visualizzato un menu con un unico pulsante denominato **"Verifica Licenza"**.
+   - Fare clic su **"Verifica Licenza"** per iniziare il processo di verifica della licenza di *ConcordatoFacile*.
+   - Verrà visualizzato un messaggio di avviso. Leggere attentamente il contenuto e fare clic su **"OK"** per continuare.
+   - Se la licenza risulta valida, verrà aggiunto un nuovo pulsante **"Funzioni ConcordatoFacile"** alla destra del pulsante **"Start"**.
 
 ## 4. Utilizzo del Modulo JotForm
 
