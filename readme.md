@@ -99,8 +99,8 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Questo foglio visualizzerà automaticamente il modulo non elaborato più vecchio.
 
 2. **Caricamento dei documenti:**
-   - Nel menu "Funzioni ConcordatoFacile", selezionare "Carica documenti in Google Drive".
-   - Questa operazione caricherà tutti i documenti inviati tramite JotForm nell'archivio di ConcordatoFacile.
+   - Nel menu "Funzioni ConcordatoFacile", selezionare "Carica allegati in Google Drive".
+   - Questa operazione caricherà tutti gli allegati inviati tramite JotForm nell'archivio di ConcordatoFacile.
 
 3. **Verifica e correzione dei dati:**
    - Nel foglio "Modulo in Elaborazione", le colonne gialle evidenziano eventuali problemi con i dati inviati.
