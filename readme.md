@@ -27,9 +27,8 @@ ConcordatoFacile è stato progettato per semplificare ogni fase del processo di 
 Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
 
 - Accesso all'account Google di ConcordatoFacile (le credenziali saranno fornite separatamente)
-- Un browser web aggiornato (preferibilmente Google Chrome o Mozilla Firefox)
+- Un browser web aggiornato (preferibilmente Google Chrome)
 - Familiarità di base con Google Drive e Google Sheets
-- Autorizzazioni necessarie per accedere e modificare i documenti in Google Drive
 - **Una connessione internet stabile**: si consiglia una velocità minima di 30 Mbps. Connessioni lente o instabili possono causare problemi di sincronizzazione, come errori nei calcoli, mancati aggiornamenti dei dati o fallimento nel salvataggio delle modifiche apportate ai documenti.
 
 ## 3. Accesso e Navigazione Iniziale
@@ -41,7 +40,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
 2. **Navigazione su Google Drive:**
    - Una volta effettuato l'accesso, aprire Google Drive dal menu delle applicazioni Google.
    - Nella sezione "Il mio Drive", individuare la cartella denominata "ConcordatoFacile".
-   - Aprire questa cartella per accedere ai documenti del sistema.
+   - Aprire questa cartella per accedere ai file del sistema.
 
 3. **Apertura del foglio di lavoro principale:**
    - All'interno della cartella ConcordatoFacile, cercare il file Google Sheets con "concordatofacile" nel nome (identificabile dall'icona verde caratteristica di Google Sheets).
@@ -52,11 +51,9 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Familiarizzare con la barra degli strumenti nella parte superiore, che inizia con il menu "File" a sinistra.
 
 5. **Attivazione delle funzionalità di ConcordatoFacile:**
-   - Nella barra degli strumenti, individuare il pulsante "Start" situato sulla destra.
-   - Fare clic sul pulsante **"Start"**. Verrà visualizzato un menu con un unico pulsante denominato **"Verifica Licenza"**.
-   - Fare clic su **"Verifica Licenza"** per iniziare il processo di verifica della licenza di *ConcordatoFacile*.
-   - Verrà visualizzato un messaggio di avviso. Leggere attentamente il contenuto e fare clic su **"OK"** per continuare.
-   - Se la licenza risulta valida, verrà aggiunto un nuovo pulsante **"Funzioni ConcordatoFacile"** alla destra del pulsante **"Start"**.
+   - Fare clic su **"Start"** nella barra degli strumenti e selezionare **"Verifica Licenza"**.
+   - Leggere l'avviso e fare clic su **"OK"**.
+   - Se la licenza è valida, apparirà il pulsante **"Funzioni ConcordatoFacile"** accanto a **"Start"**.
 
 ## 4. Utilizzo del Modulo JotForm
 
