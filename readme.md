@@ -14,7 +14,8 @@
 11. [Archiviazione e Invio della Bozza del Contratto](#11-archiviazione-e-invio-della-bozza-del-contratto)
 12. [Finalizzazione del Processo](#12-finalizzazione-del-processo)
 13. [Diagramma di Flusso](#13-diagramma-di-flusso)
-14. [Supporto e Contatti](#14-supporto-e-contatti)
+14. [Modifica di un Contratto dopo l'Elaborazione](#14-modifica-di-un-contratto-dopo-lelaborazione)
+15. [Supporto e Contatti](#15-supporto-e-contatti)
 
 ## 1. Introduzione
 
@@ -278,6 +279,56 @@ graph TD
     Z --> DD
 ```
 
-## 14. Supporto e Contatti
+## 14. Modifica di un Contratto dopo l'Elaborazione
+
+In alcune situazioni, potrebbe essere necessario apportare modifiche a un contratto già elaborato. Di seguito sono riportati i passaggi per modificare un contratto generato e riportarlo nel flusso di elaborazione:
+
+1. **Localizzazione del contratto in Google Drive:**
+   - Utilizzare la funzione di ricerca avanzata di Google Drive per trovare il file del contratto.
+   - Nota: Per dettagli sull'uso della ricerca avanzata, contattare il supporto tecnico.
+
+2. **Apertura del contratto:**
+   - Una volta individuato il file, aprirlo in Google Drive.
+
+3. **Identificazione dell'ID del file:**
+   - Nell'URL del documento aperto, individuare e copiare l'ID del file.
+
+4. **Accesso al foglio di gestione:**
+   - Aprire il foglio di calcolo 'Gestione contratti e comunicazioni'.
+
+5. **Localizzazione della riga del contratto:**
+   - Utilizzare la combinazione Ctrl+F (o Cmd+F su Mac) per cercare l'ID precedentemente copiato.
+   - Questo permetterà di trovare la riga corrispondente al contratto da modificare.
+
+6. **Identificazione del Submission ID:**
+   - Nella riga individuata, cercare la colonna che contiene il Submission ID per questo contratto.
+   - Copiare il Submission ID.
+
+7. **Ricerca nel foglio 'Archivio moduli':**
+   - Passare al foglio 'Archivio moduli'.
+   - Usare nuovamente Ctrl+F (o Cmd+F) per cercare il Submission ID copiato.
+
+8. **Rimozione del flag di elaborazione:**
+   - Una volta trovata la riga corrispondente, individuare la colonna A.
+   - Eliminare il "Sì" presente in questa colonna, che indica che il modulo è stato elaborato.
+
+9. **Rielaborazione del modulo:**
+   - Con la rimozione del "Sì", il modulo tornerà in coda per l'elaborazione.
+   - Procedere con una nuova elaborazione del modulo, correggendo i dati che hanno reso necessaria la modifica.
+
+10. **Gestione del nuovo contratto generato:**
+    - Dopo la generazione del nuovo contratto, non utilizzare la funzione 'Archivia e invia bozza contratto'.
+    - Invece, copiare l'URL del nuovo contratto generato.
+
+11. **Aggiornamento del link nel foglio di gestione:**
+    - Tornare al foglio 'Gestione contratti e comunicazioni'.
+    - Nella riga del contratto originale (identificata al punto 5), sostituire il vecchio URL con quello del nuovo contratto nella colonna H.
+
+12. **Pulizia di Google Drive:**
+    - Eliminare il file del vecchio contratto da Google Drive per evitare confusioni future.
+
+Seguendo questi passaggi, è possibile modificare un contratto già elaborato e assicurarsi che il nuovo documento sostituisca correttamente quello precedente nel sistema.
+
+## 15. Supporto e Contatti
 
 Questa guida rappresenta una panoramica del processo di utilizzo di ConcordatoFacile, ma non è da considerarsi esaustiva o definitiva. Il sistema è in continua evoluzione e potrebbe subire modifiche nel tempo. Per qualsiasi problema o chiarimento, si prega di contattare il supporto tecnico all'indirizzo germ.riccio@gmail.com o telefonicamente al numero 3313815525.
