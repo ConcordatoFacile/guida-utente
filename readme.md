@@ -124,6 +124,24 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Nel foglio "Modulo in Elaborazione" è presente una dashboard che mostra il numero di errori nei dati.
    - Prestare attenzione a questa dashboard per garantire la corretta elaborazione del modulo.
 
+6. **Modifica della posizione relativa nella banda di oscillazione minimo/massimo:**
+   - La modifica del campo "% Tolleranza" consente di intervenire manualmente sulla posizione relativa dell'immobile all'interno della banda di oscillazione stabilita dagli accordi territoriali. Permette di "aggiustare" leggermente il canone massimo o minimo consentito dal sistema, evitando che piccoli scostamenti impediscano l'accettazione di canoni sostanzialmente corretti.
+  
+   **Esempi pratici:**
+
+   - **Canone richiesto leggermente superiore al massimo consentito**: Se il canone richiesto per un immobile è di 750 euro, ma il canone massimo consentito è 749,6 euro, modificando la posizione relativa è possibile far accettare dal sistema i 750 euro, spostando la posizione dell'immobile nella fascia di oscillazione.
+   - **Canone richiesto leggermente inferiore al minimo consentito**: Se il canone richiesto è 250 euro, ma il canone minimo consentito è 251 euro, intervenendo sulla posizione relativa si può "forzare" l'accettazione di un canone leggermente più basso.
+   - **Modifica della percentuale nella fascia di oscillazione**: Se un immobile ha una posizione relativa del 79% nella fascia di oscillazione, modificando il campo è possibile spostare tale valore al 78% o all'80%.
+
+   **⚠️ Avvertenze Importanti:**
+
+   - **Uso consapevole**: Questo campo deve essere modificato solo se si è certi delle implicazioni, poiché alterare troppo la posizione potrebbe portare fuori dai limiti stabiliti dagli accordi territoriali. Ad esempio, se gli accordi prevedono un massimo del 75% per un immobile di terza fascia, far salire tale immobile sopra il 75% costituirebbe una violazione dei limiti previsti.
+   - **Range di modifica**: Il campo permette modifiche comprese tra -5 e +5, sufficienti per consentire piccoli aggiustamenti entro i limiti consentiti.
+   - **Valore predefinito**: Il valore iniziale è impostato a 0 e deve essere riportato a 0 dopo l’elaborazione.
+   - **Cautela nelle modifiche**: La possibilità di alterare manualmente la posizione relativa è pensata per casi eccezionali e non deve essere utilizzata abitualmente o per aggirare i limiti imposti dagli accordi territoriali.
+
+   In sintesi, questo campo permette di risolvere piccoli scostamenti che impedirebbero l'approvazione di un canone, ma deve essere usato con attenzione e solo all'interno dei margini consentiti.
+
 ## 7. Gestione delle Anagrafiche
 
 1. **Gestione dei membri non iscritti:**
