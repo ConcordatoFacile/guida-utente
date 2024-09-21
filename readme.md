@@ -125,7 +125,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Prestare attenzione a questa dashboard per garantire la corretta elaborazione del modulo.
 
 6. **Modifica della posizione relativa nella banda di oscillazione minimo/massimo:**
-   - La modifica del campo "% Tolleranza" consente di intervenire manualmente sulla posizione relativa dell'immobile all'interno della banda di oscillazione stabilita dagli accordi territoriali. Permette di "aggiustare" leggermente il canone massimo o minimo consentito dal sistema, evitando che piccoli scostamenti impediscano l'accettazione di canoni sostanzialmente corretti.
+   - La modifica del campo "**% Tolleranza**" nel foglio "Modulo in elaborazione" consente di intervenire manualmente sulla posizione relativa dell'immobile all'interno della banda di oscillazione stabilita dagli accordi territoriali. Permette di "aggiustare" leggermente il canone massimo o minimo consentito dal sistema, evitando che piccoli scostamenti impediscano l'accettazione di canoni sostanzialmente corretti.
   
    **Esempi pratici:**
 
