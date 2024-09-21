@@ -135,10 +135,10 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
 
    **⚠️ Avvertenze Importanti:**
 
-   - **Uso consapevole**: Questo campo deve essere modificato solo se si è certi delle implicazioni, poiché alterare troppo la posizione potrebbe portare fuori dai limiti stabiliti dagli accordi territoriali. Ad esempio, se gli accordi prevedono un massimo del 75% per un immobile di terza fascia, far salire tale immobile sopra il 75% costituirebbe una violazione dei limiti previsti.
-   - **Range di modifica**: Il campo permette modifiche comprese tra -5 e +5, sufficienti per consentire piccoli aggiustamenti entro i limiti consentiti.
+   - **Uso consapevole**: Questo campo deve essere modificato solo se si è certi delle implicazioni, poiché alterare troppo la posizione relativa massima o minima potrebbe portare fuori dai limiti stabiliti dagli accordi territoriali. Ad esempio, se gli accordi prevedono un massimo del 75% per un immobile di terza fascia (escluse maggiorazioni/riduzioni), collocare il range minimo o massimo di tale immobile oltre il 75% costituirebbe una violazione dei limiti previsti.
+   - **Range di modifica**: Il campo permette modifiche comprese tra -5% e +5%, sufficienti per consentire piccoli aggiustamenti entro i limiti consentiti.
    - **Valore predefinito**: Il valore iniziale è impostato a 0 e deve essere riportato a 0 dopo l’elaborazione.
-   - **Cautela nelle modifiche**: La possibilità di alterare manualmente la posizione relativa è pensata per casi eccezionali e non deve essere utilizzata abitualmente o per aggirare i limiti imposti dagli accordi territoriali.
+   - **Cautela nelle modifiche**: La possibilità di alterare manualmente la posizione relativa massima o minima è pensata per casi eccezionali e non deve essere utilizzata abitualmente o per aggirare i limiti imposti dagli accordi territoriali.
 
    In sintesi, questo campo permette di risolvere piccoli scostamenti che impedirebbero l'approvazione di un canone, ma deve essere usato con attenzione e solo all'interno dei margini consentiti.
 
