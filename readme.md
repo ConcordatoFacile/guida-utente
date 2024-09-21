@@ -124,23 +124,23 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Nel foglio "Modulo in Elaborazione" è presente una dashboard che mostra il numero di errori nei dati.
    - Prestare attenzione a questa dashboard per garantire la corretta elaborazione del modulo.
 
-6. **Modifica della posizione relativa nella banda di oscillazione minimo/massimo:**
-   - La modifica del campo "**% Tolleranza**" nel foglio "Modulo in elaborazione" consente di intervenire manualmente sulla posizione relativa massima o minima dell'immobile all'interno della banda di oscillazione stabilita dagli accordi territoriali. Permette di "aggiustare" leggermente il canone mensile massimo o minimo consentito dal sistema, evitando che piccoli scostamenti impediscano l'accettazione di canoni sostanzialmente corretti.
+6. **Modifica della tolleranza:**
+   - La modifica del campo "% Tolleranza" nel foglio "Modulo in elaborazione" consente di intervenire manualmente sui valori minimi e massimi del canone annuo (espressi in €/mq) consentiti dalle fasce e subfasce determinate dagli accordi territoriali. Questo permette di "aggiustare" leggermente il canone mensile massimo o minimo calcolato dal sistema, evitando che piccoli scostamenti impediscano l'accettazione di canoni sostanzialmente corretti. I valori minimi e massimi modificati influenzano poi la posizione relativa massima e minima dell'immobile all'interno della fascia di oscillazione.
   
    **Esempi pratici:**
 
-   - **Canone mensile richiesto leggermente superiore al massimo consentito**: Se il canone mensile richiesto per un immobile è di 750 euro, ma il canone massimo consentito è 749,6 euro, modificando la _tolleranza_ è possibile far accettare dal sistema i 750 euro, spostando la posizione relativa massima dell'immobile nella fascia di oscillazione.
-   - **Canone mensile richiesto leggermente inferiore al minimo consentito**: Se il canone mensile richiesto è 250 euro, ma il canone minimo consentito è 251 euro, intervenendo sulla posizione relativa minima si può "forzare" l'accettazione di un canone leggermente più basso.
-   - **Modifica della percentuale nella fascia di oscillazione**: Se un immobile ha una posizione relativa massima del 79% nella fascia di oscillazione, modificando il campo è possibile spostare tale valore al 78% o all'80%.
+   - **Canone mensile richiesto leggermente superiore al massimo consentito**: Se il canone mensile richiesto per un immobile è di **750 euro**, ma il canone massimo calcolato dal sistema è **749,6 euro**, modificando la tolleranza si può aumentare leggermente il valore massimo del canone annuo in €/mq, permettendo al sistema di accettare i **750 euro** richiesti.
+   - **Canone mensile richiesto leggermente inferiore al minimo consentito**: Se il canone mensile richiesto è **250 euro**, ma il canone minimo calcolato dal sistema è **251 euro**, intervenendo sulla tolleranza si può diminuire leggermente il valore minimo del canone annuo in €/mq, consentendo l'accettazione di un canone leggermente più basso.
+   - **Influenza sulla posizione relativa nella fascia di oscillazione:**: Se un immobile ha una posizione relativa massima del **79%** nella fascia di oscillazione (che va da **0%** a **100%**, dove **0%** è il valore minimo e **100%** è il valore massimo del canone annuo in €/mq), modificando il campo "% Tolleranza" si alterano i valori minimi e massimi del canone annuo. Questo può spostare la posizione relativa dell'immobile al **78%** o all'**80%**, a seconda delle esigenze.
 
    **⚠️ Avvertenze Importanti:**
 
-   - **Uso consapevole**: Questo campo deve essere modificato solo se si è certi delle implicazioni, poiché alterare troppo la posizione relativa massima o minima potrebbe portare fuori dai limiti stabiliti dagli accordi territoriali. Ad esempio, se gli accordi prevedono un massimo del 75% per un immobile di terza fascia, impostare un valore minimo/massimo per tale immobile oltre il 75% (escluse eventuali maggiorazioni/riduzioni) costituirebbe una violazione dei limiti previsti
-   - **Range di modifica**: Il campo permette modifiche comprese tra -5% e +5%, sufficienti per consentire piccoli aggiustamenti entro i limiti consentiti.
-   - **Valore predefinito**: Il valore iniziale è impostato a 0 e deve essere riportato a 0 dopo l’elaborazione.
-   - **Cautela nelle modifiche**: La possibilità di alterare manualmente la posizione relativa massima o minima è pensata per casi eccezionali e non deve essere utilizzata abitualmente o per aggirare i limiti imposti dagli accordi territoriali.
+   - **Uso consapevole**: Questo campo deve essere modificato solo se si è certi delle implicazioni, poiché alterare i valori minimi e massimi del canone annuo in €/mq potrebbe portare fuori dai limiti stabiliti dagli accordi territoriali. Ad esempio, se gli accordi prevedono un massimo del **75%** per un immobile di terza fascia, aumentare il valore massimo oltre questo limite (escluse eventuali maggiorazioni o riduzioni) costituirebbe una violazione delle normative.
+   - **Range di modifica**: Il campo permette modifiche comprese tra **-5%** e **+5%**, sufficienti per consentire piccoli aggiustamenti entro i limiti consentiti.
+   - **Valore predefinito**: Il valore iniziale è impostato a **0%** e dovrebbe essere riportato a **0%** dopo l’elaborazione per mantenere l'integrità dei calcoli futuri.
+   - **Cautela nelle modifiche**: La possibilità di alterare manualmente i valori minimi e massimi del canone annuo in €/mq è pensata per casi eccezionali. Non dovrebbe essere utilizzata abitualmente o per aggirare i limiti imposti dagli accordi territoriali.
 
-   In sintesi, questo campo permette di risolvere piccoli scostamenti che impedirebbero l'approvazione di un canone, ma deve essere usato con attenzione e solo all'interno dei margini consentiti.
+   **In sintesi**, questo campo permette di risolvere piccoli scostamenti che impedirebbero l'approvazione di un canone, ma deve essere usato con attenzione e sempre all'interno dei margini consentiti dalle normative vigenti.
 
 ## 7. Gestione delle Anagrafiche
 
