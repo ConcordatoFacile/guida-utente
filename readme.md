@@ -135,7 +135,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
 
    **⚠️ Avvertenze Importanti:**
 
-   - **Uso consapevole**: Questo campo deve essere modificato solo se si è certi delle implicazioni, poiché alterare i valori minimi e massimi del canone annuo in €/mq potrebbe portare fuori dai limiti stabiliti dagli accordi territoriali. Ad esempio, se gli accordi prevedono un massimo del **75%** per un immobile di terza fascia, aumentare il valore massimo oltre questo limite (escluse eventuali maggiorazioni o riduzioni) costituirebbe una violazione delle normative.
+   - **Uso consapevole**: Questo campo deve essere modificato solo se si è certi delle implicazioni, poiché alterare i valori minimi e massimi del canone annuo in €/mq potrebbe portare fuori dai limiti stabiliti dagli accordi territoriali. Ad esempio, se gli accordi prevedono un massimo del **75%** per un immobile di terza fascia (escluse eventuali maggiorazioni o riduzioni), aumentare il valore massimo oltre questo limite costituirebbe una violazione delle normative.
    - **Range di modifica**: Il campo permette modifiche comprese tra **-5%** e **+5%**, sufficienti per consentire piccoli aggiustamenti entro i limiti consentiti.
    - **Valore predefinito**: Il valore iniziale è impostato a **0%** e dovrebbe essere riportato a **0%** dopo l’elaborazione per mantenere l'integrità dei calcoli futuri.
    - **Cautela nelle modifiche**: La possibilità di alterare manualmente i valori minimi e massimi del canone annuo in €/mq è pensata per casi eccezionali. Non dovrebbe essere utilizzata abitualmente o per aggirare i limiti imposti dagli accordi territoriali.
