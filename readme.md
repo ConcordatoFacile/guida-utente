@@ -125,13 +125,13 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Prestare attenzione a questa dashboard per garantire la corretta elaborazione del modulo.
 
 6. **Modifica della posizione relativa nella banda di oscillazione minimo/massimo:**
-   - La modifica del campo "**% Tolleranza**" nel foglio "Modulo in elaborazione" consente di intervenire manualmente sulla posizione relativa dell'immobile all'interno della banda di oscillazione stabilita dagli accordi territoriali. Permette di "aggiustare" leggermente il canone massimo o minimo consentito dal sistema, evitando che piccoli scostamenti impediscano l'accettazione di canoni sostanzialmente corretti.
+   - La modifica del campo "**% Tolleranza**" nel foglio "Modulo in elaborazione" consente di intervenire manualmente sulla posizione relativa massima o minima dell'immobile all'interno della banda di oscillazione stabilita dagli accordi territoriali. Permette di "aggiustare" leggermente il canone mensile massimo o minimo consentito dal sistema, evitando che piccoli scostamenti impediscano l'accettazione di canoni sostanzialmente corretti.
   
    **Esempi pratici:**
 
-   - **Canone richiesto leggermente superiore al massimo consentito**: Se il canone richiesto per un immobile è di 750 euro, ma il canone massimo consentito è 749,6 euro, modificando la posizione relativa è possibile far accettare dal sistema i 750 euro, spostando la posizione dell'immobile nella fascia di oscillazione.
-   - **Canone richiesto leggermente inferiore al minimo consentito**: Se il canone richiesto è 250 euro, ma il canone minimo consentito è 251 euro, intervenendo sulla posizione relativa si può "forzare" l'accettazione di un canone leggermente più basso.
-   - **Modifica della percentuale nella fascia di oscillazione**: Se un immobile ha una posizione relativa del 79% nella fascia di oscillazione, modificando il campo è possibile spostare tale valore al 78% o all'80%.
+   - **Canone mensile richiesto leggermente superiore al massimo consentito**: Se il canone mensile richiesto per un immobile è di 750 euro, ma il canone massimo consentito è 749,6 euro, modificando la _tolleranza_ è possibile far accettare dal sistema i 750 euro, spostando la posizione relativa massima dell'immobile nella fascia di oscillazione.
+   - **Canone mensile richiesto leggermente inferiore al minimo consentito**: Se il canone mensile richiesto è 250 euro, ma il canone minimo consentito è 251 euro, intervenendo sulla posizione relativa minima si può "forzare" l'accettazione di un canone leggermente più basso.
+   - **Modifica della percentuale nella fascia di oscillazione**: Se un immobile ha una posizione relativa massima del 79% nella fascia di oscillazione, modificando il campo è possibile spostare tale valore al 78% o all'80%.
 
    **⚠️ Avvertenze Importanti:**
 
