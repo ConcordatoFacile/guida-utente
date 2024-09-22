@@ -88,8 +88,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
 4. **Importanza dell'integrità dei dati:**
    - Tutte le modifiche ai dati devono essere effettuate **esclusivamente** nel foglio "Archivio Moduli".
    - È fondamentale non modificare manualmente i dati in altri fogli del file, poiché ciò **potrebbe compromettere il funzionamento del sistema**.
-
-   **Non modificare l'ordine delle colonne:** L'ordine delle colonne nel foglio "Archivio Moduli" è critico per il corretto funzionamento di ConcordatoFacile. Se si nota che l'ordine delle colonne è stato accidentalmente modificato, **contattare immediatamente il supporto tecnico** prima di procedere con qualsiasi altra operazione.
+   - **Non modificare l'ordine delle colonne:** L'ordine delle colonne nel foglio "Archivio Moduli" è critico per il corretto funzionamento di ConcordatoFacile. Se si nota che l'ordine delle colonne è stato accidentalmente modificato, **contattare immediatamente il supporto tecnico** prima di procedere con qualsiasi altra operazione.
 
 ## 6. Elaborazione dei Moduli
 
@@ -106,53 +105,51 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Per correggere questi dati, tornare al foglio "Archivio Moduli".
    - Individuare la riga corrispondente al modulo in elaborazione.
    - Apportare le modifiche necessarie direttamente nelle celle appropriate del foglio "Archivio Moduli".
-
-   **Problema noto:** I nomi delle colonne nel foglio "Archivio Moduli" potrebbero non corrispondere esattamente ai dati visualizzati nelle righe. Per individuare il campo specifico che si desidera modificare, si consiglia di:
-
-   - **Identificare la riga** su cui si sta lavorando.
-   - Utilizzare la funzione "Trova" (**Ctrl+F**) per **cercare direttamente il contenuto** che si intende correggere all'interno della riga selezionata.
-   - **Non fare affidamento sui nomi delle colonne** per individuare la cella, ma utilizzare la ricerca per contenuto come descritto sopra.
+   - **Problema noto:** I nomi delle colonne nel foglio "Archivio Moduli" potrebbero non corrispondere esattamente ai dati visualizzati nelle righe. Per individuare il campo specifico che si desidera modificare, si consiglia di:
+      - **Identificare la riga** su cui si sta lavorando.
+      - Utilizzare la funzione "Trova" (**Ctrl+F**) per **cercare direttamente il contenuto** che si intende correggere all'interno della riga selezionata.
+      - **Non fare affidamento sui nomi delle colonne** per individuare la cella, ma utilizzare la ricerca per contenuto come descritto sopra.
   
-4. **Gestione dei caratteri speciali nei campi di testo:**
+5. **Gestione dei caratteri speciali nei campi di testo:**
    - Prestare particolare attenzione ai campi di testo che contengono apostrofi o altri caratteri speciali.
    - In alcuni casi, specialmente quando il modulo JotForm viene compilato da dispositivi mobili, possono essere inseriti caratteri non standard (come ` invece di ').
    - Questi caratteri non standard possono causare errori nell'elaborazione dei dati o nella generazione dei codici fiscali.
    - Se si notano problemi con l'elaborazione dei dati o con i codici fiscali, controllare e correggere manualmente i campi di testo nel foglio "Archivio Moduli".
    - Esempio: Se "Sant'Antimo" appare come "Sant\`Antimo", sostituire il carattere ` con un apostrofo standard (').
 
-5. **Dashboard errori:**
+6. **Dashboard errori:**
    - Nel foglio "Modulo in Elaborazione" è presente una dashboard che mostra il numero di errori nei dati.
    - Prestare attenzione a questa dashboard per garantire la corretta elaborazione del modulo.
 
-6. **Modifica della tolleranza:**
+7. **Modifica della tolleranza:**
    - Modificare il campo "% Tolleranza" nel foglio "Modulo in elaborazione" consente di regolare manualmente i valori minimi e massimi del canone annuo (in €/mq) all'interno delle fasce stabilite dagli accordi territoriali.
-   - Questa regolazione permette di adattare leggermente il canone mensile calcolato dal sistema, facilitando l'accettazione di canoni che altrimenti sarebbero marginalmente fuori dai limiti previsti.
-   - Le modifiche influenzano la posizione relativa dell'immobile nella fascia di oscillazione complessiva dal 0% al 100%, ma **non alterano i valori minimi e massimi assoluti** stabiliti dall'accordo territoriale. 
+   - Questa regolazione permette di adattare leggermente il canone mensile minimo o massimo calcolato dal sistema, facilitando l'accettazione di canoni che altrimenti sarebbero marginalmente fuori dai limiti previsti.
+   - Le modifiche influenzano la posizione relativa dell'immobile nella fascia di oscillazione complessiva dallo 0% al 100%, ma **non alterano i valori minimi e massimi assoluti** stabiliti dall'accordo territoriale.
 
    **Esempi pratici:**
-   - **Scenario 1: Canone leggermente superiore al massimo consentito**
-     - **Accordo Territoriale:** Canone annuo minimo assoluto = 200 €/mq (0%), massimo assoluto = 300 €/mq (100%).
-     - **Fascia Specifica:** Relativamente, il canone va da 220 €/mq (10%) a 280 €/mq (90%).
-     - **Intervento:** Aumentando la **% Tolleranza** del +5%, i valori relativi diventano 230 €/mq (15%) e 290 €/mq (95%).
-     - **Risultato:** Un canone di 285 €/mq, precedentemente al di sopra del massimo relativo (280 €/mq), ora rientra nella fascia relativa modificata (290 €/mq).
+      - **Scenario 1: Canone leggermente superiore al massimo consentito**
+        - **Accordo Territoriale:** Canone annuo minimo assoluto = 200 €/mq (0%), massimo assoluto = 300 €/mq (100%).
+        - **Fascia Specifica:** Relativamente, il canone va da 220 €/mq (10%) a 280 €/mq (90%).
+        - **Intervento:** Aumentando la **% Tolleranza** del +5%, i valori relativi diventano 230 €/mq (15%) e 290 €/mq (95%).
+        - **Risultato:** Un canone di 285 €/mq, precedentemente al di sopra del massimo relativo (280 €/mq), ora rientra nella fascia relativa modificata (290 €/mq).
 
-   - **Scenario 2: Canone leggermente inferiore al minimo consentito**
-     - **Accordo Territoriale:** Canone annuo minimo assoluto = 200 €/mq (0%), massimo assoluto = 300 €/mq (100%).
-     - **Fascia Specifica:** Relativamente, il canone va da 220 €/mq (10%) a 280 €/mq (90%).
-     - **Intervento:** Riducendo la **% Tolleranza** del -5%, i valori relativi diventano 210 €/mq (5%) e 270 €/mq (85%).
-     - **Risultato:** Un canone di 205 €/mq, precedentemente al di sotto del minimo relativo (220 €/mq), ora rientra nella fascia relativa modificata (210 €/mq).
+      - **Scenario 2: Canone leggermente inferiore al minimo consentito**
+        - **Accordo Territoriale:** Canone annuo minimo assoluto = 200 €/mq (0%), massimo assoluto = 300 €/mq (100%).
+        - **Fascia Specifica:** Relativamente, il canone va da 220 €/mq (10%) a 280 €/mq (90%).
+        - **Intervento:** Riducendo la **% Tolleranza** del -5%, i valori relativi diventano 210 €/mq (5%) e 270 €/mq (85%).
+        - **Risultato:** Un canone di 205 €/mq, precedentemente al di sotto del minimo relativo (220 €/mq), ora rientra nella fascia relativa modificata (210 €/mq).
 
-   - **Scenario 3: Modificare la posizione relativa nella fascia di oscillazione**
-     - **Accordo Territoriale:** Canone annuo minimo assoluto = 200 €/mq (0%), massimo assoluto = 300 €/mq (100%).
-     - **Fascia Specifica:** Relativamente, il canone va da 220 €/mq (10%) a 280 €/mq (90%).
-     - **Intervento:** Impostando una **% Tolleranza** del +3%, i valori relativi diventano 226 €/mq (13%) e 286 €/mq (93%).
-     - **Risultato:** Un immobile inizialmente posizionato al 79% nella fascia di oscillazione può spostarsi all'80%, offrendo maggiore flessibilità nella valutazione senza alterare i limiti assoluti.
+      - **Scenario 3: Modificare la posizione relativa nella fascia di oscillazione**
+        - **Accordo Territoriale:** Canone annuo minimo assoluto = 200 €/mq (0%), massimo assoluto = 300 €/mq (100%).
+        - **Fascia Specifica:** Relativamente, il canone va da 220 €/mq (10%) a 280 €/mq (90%).
+        - **Intervento:** Impostando una **% Tolleranza** del +3%, i valori relativi diventano 226 €/mq (13%) e 286 €/mq (93%).
+        - **Risultato:** Un immobile inizialmente posizionato al 79% nella fascia di oscillazione può spostarsi all'80%, offrendo maggiore flessibilità nella valutazione senza alterare i limiti assoluti.
 
    **⚠️ Avvertenze Importanti:**
-   - **Uso consapevole:** Questo campo deve essere modificato solo se si è certi delle implicazioni, poiché alterare i valori minimi e massimi del canone annuo potrebbe portare fuori dai limiti stabiliti.
-      - Ad esempio, se gli accordi prevedono un massimo del 75% per un immobile di terza fascia (escluse eventuali maggiorazioni o riduzioni), impostare il valore massimo oltre questo limite costituirebbe una violazione degli accordi territoriali.
-   - **Valore predefinito:** Il campo è impostato a 0% di default e dovrebbe essere riportato a 0% dopo l'elaborazione per mantenere l'integrità dei calcoli futuri.
-   - **Cautela nelle modifiche:** La possibilità di modificare manualmente i valori è pensata per casi eccezionali. Non dovrebbe essere utilizzata abitualmente o per aggirare i limiti imposti dagli accordi territoriali.
+      - Questo campo deve essere modificato solo se si è certi delle implicazioni, poiché alterare i valori minimi e massimi del canone annuo potrebbe portare fuori dai limiti stabiliti.
+         - Ad esempio, se gli accordi prevedono un massimo del 75% per un immobile di terza fascia (escluse eventuali maggiorazioni o riduzioni), impostare il valore massimo oltre questo limite costituirebbe una violazione degli accordi territoriali.
+      - Il campo è impostato a 0% di default e dovrebbe essere riportato a 0% dopo l'elaborazione per mantenere l'integrità dei calcoli futuri.
+      - La possibilità di modificare manualmente i valori è pensata per casi eccezionali. Non dovrebbe essere utilizzata abitualmente o per aggirare i limiti imposti dagli accordi territoriali.
 
 ## 7. Gestione delle Anagrafiche
 
