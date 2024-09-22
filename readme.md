@@ -127,25 +127,6 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Questa regolazione permette di adattare leggermente il canone mensile minimo o massimo calcolato dal sistema, facilitando l'accettazione di canoni che altrimenti sarebbero marginalmente fuori dai limiti previsti.
    - Le modifiche influenzano la posizione relativa dell'immobile nella fascia di oscillazione complessiva dallo 0% al 100%, ma **non alterano i valori minimi e massimi assoluti** stabiliti dall'accordo territoriale.
 
-   **Esempi pratici:**
-      - **Scenario 1: Canone leggermente superiore al massimo consentito**
-        - **Accordo Territoriale:** Canone annuo minimo assoluto = 200 €/mq (0%), massimo assoluto = 300 €/mq (100%).
-        - **Fascia Specifica:** Relativamente, il canone va da 220 €/mq (10%) a 280 €/mq (90%).
-        - **Intervento:** Aumentando la **% Tolleranza** del +5%, i valori relativi diventano 230 €/mq (15%) e 290 €/mq (95%).
-        - **Risultato:** Un canone di 285 €/mq, precedentemente al di sopra del massimo relativo (280 €/mq), ora rientra nella fascia relativa modificata (290 €/mq).
-
-      - **Scenario 2: Canone leggermente inferiore al minimo consentito**
-        - **Accordo Territoriale:** Canone annuo minimo assoluto = 200 €/mq (0%), massimo assoluto = 300 €/mq (100%).
-        - **Fascia Specifica:** Relativamente, il canone va da 220 €/mq (10%) a 280 €/mq (90%).
-        - **Intervento:** Riducendo la **% Tolleranza** del -5%, i valori relativi diventano 210 €/mq (5%) e 270 €/mq (85%).
-        - **Risultato:** Un canone di 205 €/mq, precedentemente al di sotto del minimo relativo (220 €/mq), ora rientra nella fascia relativa modificata (210 €/mq).
-
-      - **Scenario 3: Modificare la posizione relativa nella fascia di oscillazione**
-        - **Accordo Territoriale:** Canone annuo minimo assoluto = 200 €/mq (0%), massimo assoluto = 300 €/mq (100%).
-        - **Fascia Specifica:** Relativamente, il canone va da 220 €/mq (10%) a 280 €/mq (90%).
-        - **Intervento:** Impostando una **% Tolleranza** del +3%, i valori relativi diventano 226 €/mq (13%) e 286 €/mq (93%).
-        - **Risultato:** Un immobile inizialmente posizionato al 79% nella fascia di oscillazione può spostarsi all'80%, offrendo maggiore flessibilità nella valutazione.
-
    **⚠️ Avvertenze Importanti:**
       - Questo campo deve essere modificato solo se si è certi delle implicazioni, poiché alterare i valori minimi e massimi del canone annuo potrebbe portare fuori dai limiti stabiliti.
          - Ad esempio, se gli accordi prevedono un massimo del 75% per un immobile di terza fascia (escluse eventuali maggiorazioni o riduzioni), impostare i valori relativi oltre questo limite costituirebbe una violazione degli accordi territoriali.
