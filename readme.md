@@ -105,10 +105,11 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Per correggere questi dati, tornare al foglio "Archivio Moduli".
    - Individuare la riga corrispondente al modulo in elaborazione.
    - Apportare le modifiche necessarie direttamente nelle celle appropriate del foglio "Archivio Moduli".
-   - **Problema noto:** I nomi delle colonne nel foglio "Archivio Moduli" potrebbero non corrispondere esattamente ai dati visualizzati nelle righe. Per individuare il campo specifico che si desidera modificare, si consiglia di:
-      - **Identificare la riga** su cui si sta lavorando.
-      - Utilizzare la funzione "Trova" (**Ctrl+F**) per **cercare direttamente il contenuto** che si intende correggere all'interno della riga selezionata.
-      - **Non fare affidamento sui nomi delle colonne** per individuare la cella, ma utilizzare la ricerca per contenuto come descritto sopra.
+   
+   **Problema noto:** I nomi delle colonne nel foglio "Archivio Moduli" potrebbero non corrispondere esattamente ai dati visualizzati nelle righe. Per individuare il campo specifico che si desidera modificare, si consiglia di:
+   - **Identificare la riga** su cui si sta lavorando.
+   - Utilizzare la funzione "Trova" (**Ctrl+F**) per **cercare direttamente il contenuto** che si intende correggere all'interno della riga selezionata.
+   - **Non fare affidamento sui nomi delle colonne** per individuare la cella, ma utilizzare la ricerca per contenuto come descritto sopra.
   
 5. **Gestione dei caratteri speciali nei campi di testo:**
    - Prestare particolare attenzione ai campi di testo che contengono apostrofi o altri caratteri speciali.
@@ -143,11 +144,11 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
         - **Accordo Territoriale:** Canone annuo minimo assoluto = 200 €/mq (0%), massimo assoluto = 300 €/mq (100%).
         - **Fascia Specifica:** Relativamente, il canone va da 220 €/mq (10%) a 280 €/mq (90%).
         - **Intervento:** Impostando una **% Tolleranza** del +3%, i valori relativi diventano 226 €/mq (13%) e 286 €/mq (93%).
-        - **Risultato:** Un immobile inizialmente posizionato al 79% nella fascia di oscillazione può spostarsi all'80%, offrendo maggiore flessibilità nella valutazione senza alterare i limiti assoluti.
+        - **Risultato:** Un immobile inizialmente posizionato al 79% nella fascia di oscillazione può spostarsi all'80%, offrendo maggiore flessibilità nella valutazione.
 
    **⚠️ Avvertenze Importanti:**
       - Questo campo deve essere modificato solo se si è certi delle implicazioni, poiché alterare i valori minimi e massimi del canone annuo potrebbe portare fuori dai limiti stabiliti.
-         - Ad esempio, se gli accordi prevedono un massimo del 75% per un immobile di terza fascia (escluse eventuali maggiorazioni o riduzioni), impostare il valore massimo oltre questo limite costituirebbe una violazione degli accordi territoriali.
+         - Ad esempio, se gli accordi prevedono un massimo del 75% per un immobile di terza fascia (escluse eventuali maggiorazioni o riduzioni), impostare i valori relativi oltre questo limite costituirebbe una violazione degli accordi territoriali.
       - Il campo è impostato a 0% di default e dovrebbe essere riportato a 0% dopo l'elaborazione per mantenere l'integrità dei calcoli futuri.
       - La possibilità di modificare manualmente i valori è pensata per casi eccezionali. Non dovrebbe essere utilizzata abitualmente o per aggirare i limiti imposti dagli accordi territoriali.
 
