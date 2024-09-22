@@ -125,22 +125,38 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Prestare attenzione a questa dashboard per garantire la corretta elaborazione del modulo.
 
 6. **Modifica della tolleranza:**
-   - Cambiare il campo "% Tolleranza" nel foglio "Modulo in elaborazione" permette di regolare manualmente i valori minimi e massimi del canone annuo (in €/mq) stabiliti dalle fasce e subfasce degli accordi territoriali. Questo consente di aggiustare leggermente il canone mensile massimo o minimo calcolato dal sistema, evitando che piccole differenze impediscano l'accettazione di canoni sostanzialmente corretti. I valori minimi e massimi modificati influenzano la posizione dell'immobile nella fascia di oscillazione.
-  
-   **Esempi pratici:**
+   - Modificare il campo "% Tolleranza" nel foglio "Modulo in elaborazione" consente di regolare manualmente i valori minimi e massimi del canone annuo (in €/mq) all'interno delle fasce stabilite dagli accordi territoriali. Questa regolazione permette di adattare leggermente il canone mensile calcolato dal sistema, facilitando l'accettazione di canoni che altrimenti sarebbero marginalmente fuori dai limiti previsti.
+   - Le modifiche effettuate tramite la tolleranza influenzano la posizione relativa dell'immobile nella fascia di oscillazione complessiva dal 0% al 100%, ma **non alterano i valori minimi e massimi assoluti** stabiliti dall'accordo territoriale. 
+   
+   **Esempi Pratici**
+   - **Scenario 1: Canone leggermente superiore al massimo consentito**
+     - **Accordo Territoriale:** Canone annuo minimo assoluto = 200 €/mq (0%), massimo assoluto = 300 €/mq (100%).
+     - **Fascia Specifica:** Relativamente, il canone va da 220 €/mq (10%) a 280 €/mq (90%).
+   - **Intervento:**
+     - Aumentando la **% Tolleranza** del +5%, i valori relativi diventano 230 €/mq (15%) e 290 €/mq (95%).
+   - **Risultato:**
+     - Un canone di 285 €/mq, precedentemente al di sopra del massimo relativo (280 €/mq), ora rientra nella fascia relativa modificata (290 €/mq) senza superare il limite assoluto di 300 €/mq.
 
-   - **Canone mensile richiesto leggermente superiore al massimo consentito**: Se il canone richiesto è 750 euro, ma il massimo calcolato è 749,6 euro, modificando la tolleranza si può aumentare leggermente il valore massimo del canone annuo in €/mq, permettendo al sistema di accettare i 750 euro richiesti.
-   - **Canone mensile richiesto leggermente inferiore al minimo consentito**: Se il canone richiesto è 250 euro, ma il minimo calcolato è 251 euro, modificando la tolleranza si può diminuire leggermente il valore minimo del canone annuo in €/mq, consentendo l'accettazione di un canone leggermente più basso.
-   - **Influenza sulla posizione relativa nella fascia di oscillazione:**: Se un immobile ha una posizione relativa massima del 79% nella fascia di oscillazione (da 0% a 100%, dove 0% è il minimo e 100% il massimo del canone annuo in €/mq), modificando il campo "% Tolleranza" si cambiano i valori minimi e massimi del canone annuo, spostando la posizione relativa dell'immobile al 78% o all'80%, a seconda delle necessità.
+   **Scenario 2: Canone leggermente inferiore al minimo consentito**
+     - **Accordo Territoriale:** Canone annuo minimo assoluto = 200 €/mq (0%), massimo assoluto = 300 €/mq (100%).
+     - **Fascia Specifica:** Relativamente, il canone va da 220 €/mq (10%) a 280 €/mq (90%).
+   - **Intervento:**
+     - Riducendo la **% Tolleranza** del -5%, i valori relativi diventano 210 €/mq (5%) e 270 €/mq (85%).
+   - **Risultato:**
+     - Un canone di 205 €/mq, precedentemente al di sotto del minimo relativo (220 €/mq), ora rientra nella fascia relativa modificata (210 €/mq) senza scendere sotto il minimo assoluto di 200 €/mq.
+
+   **Scenario 3: Modificare la posizione relativa nella fascia di oscillazione**
+     - **Accordo Territoriale:** Canone annuo minimo assoluto = 200 €/mq (0%), massimo assoluto = 300 €/mq (100%).
+     - **Fascia Specifica:** Relativamente, il canone va da 220 €/mq (10%) a 280 €/mq (90%).
+   - **Intervento:**
+     - Impostando una **% Tolleranza** del +3%, i valori relativi diventano 226 €/mq (13%) e 286 €/mq (93%).
+   - **Risultato:**
+     - Un immobile inizialmente posizionato al 79% nella fascia di oscillazione può spostarsi all'80%, offrendo maggiore flessibilità nella valutazione senza alterare i limiti assoluti.
 
    **⚠️ Avvertenze Importanti:**
-
-   - **Uso consapevole**: Questo campo deve essere modificato solo se si è certi delle implicazioni, poiché alterare i valori minimi e massimi del canone annuo in €/mq potrebbe portare fuori dai limiti stabiliti dagli accordi territoriali. Ad esempio, se gli accordi prevedono un massimo del **75%** per un immobile di terza fascia (escluse eventuali maggiorazioni o riduzioni), aumentare il valore massimo oltre questo limite costituirebbe una violazione delle normative.
-   - **Range di modifica**: Il campo permette modifiche comprese tra **-10%** e **+10%**, sufficienti per consentire piccoli aggiustamenti entro i limiti consentiti.
-   - **Valore predefinito**: Il valore iniziale è impostato a **0%** e dovrebbe essere riportato a **0%** dopo l’elaborazione per mantenere l'integrità dei calcoli futuri.
-   - **Cautela nelle modifiche**: La possibilità di alterare manualmente i valori minimi e massimi del canone annuo in €/mq è pensata per casi eccezionali. Non dovrebbe essere utilizzata abitualmente o per aggirare i limiti imposti dagli accordi territoriali.
-
-   In sintesi, questo campo permette di risolvere piccoli scostamenti che impedirebbero l'approvazione di un canone, ma deve essere usato con attenzione e sempre all'interno dei margini consentiti dalle normative vigenti.
+   - **Uso consapevole**: Questo campo deve essere modificato solo se si è certi delle implicazioni, poiché alterare i valori minimi e massimi del canone annuo potrebbe portare fuori dai limiti stabiliti. Ad esempio, se gli accordi prevedono un massimo del 75% per un immobile di terza fascia (escluse eventuali maggiorazioni o riduzioni), impostare il valore massimo oltre questo limite costituirebbe una violazione degli accordi territoriali.
+   - **Valore predefinito**: Il campo è impostato a 0% di default e dovrebbe essere riportato a 0% dopo l'elaborazione per mantenere l'integrità dei calcoli futuri.
+   - **Cautela nelle modifiche**: La possibilità di modificare manualmente i valori è pensata per casi eccezionali. Non dovrebbe essere utilizzata abitualmente o per aggirare i limiti imposti dagli accordi territoriali.
 
 ## 7. Gestione delle Anagrafiche
 
