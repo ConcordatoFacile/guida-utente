@@ -125,7 +125,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Prestare attenzione a questa dashboard per garantire la corretta elaborazione del modulo.
 
 6. **Modifica della tolleranza:**
-   - Cambiare il campo "% Tolleranza" nel foglio "Modulo in elaborazione" permette di regolare manualmente i valori minimi e massimi del canone annuo (in €/mq) stabiliti dalle fasce e subfasce degli accordi territoriali. Questo consente di aggiustare leggermente il canone mensile massimo o minimo calcolato dal sistema, evitando che piccole differenze impediscano l'accettazione di canoni corretti. I valori minimi e massimi modificati influenzano la posizione dell'immobile nella fascia di oscillazione.
+   - Cambiare il campo "% Tolleranza" nel foglio "Modulo in elaborazione" permette di regolare manualmente i valori minimi e massimi del canone annuo (in €/mq) stabiliti dalle fasce e subfasce degli accordi territoriali. Questo consente di aggiustare leggermente il canone mensile massimo o minimo calcolato dal sistema, evitando che piccole differenze impediscano l'accettazione di canoni sostanzialmente corretti. I valori minimi e massimi modificati influenzano la posizione dell'immobile nella fascia di oscillazione.
   
    **Esempi pratici:**
 
