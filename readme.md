@@ -134,13 +134,13 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
      - **Accordo Territoriale:** Canone annuo minimo assoluto = 200 €/mq (0%), massimo assoluto = 300 €/mq (100%).
      - **Fascia Specifica:** Relativamente, il canone va da 220 €/mq (10%) a 280 €/mq (90%).
      - **Intervento:** Aumentando la **% Tolleranza** del +5%, i valori relativi diventano 230 €/mq (15%) e 290 €/mq (95%).
-     - **Risultato:** Un canone di 285 €/mq, precedentemente al di sopra del massimo relativo (280 €/mq), ora rientra nella fascia relativa modificata (290 €/mq) senza superare il limite assoluto di 300 €/mq.
+     - **Risultato:** Un canone di 285 €/mq, precedentemente al di sopra del massimo relativo (280 €/mq), ora rientra nella fascia relativa modificata (290 €/mq).
 
    - **Scenario 2: Canone leggermente inferiore al minimo consentito**
      - **Accordo Territoriale:** Canone annuo minimo assoluto = 200 €/mq (0%), massimo assoluto = 300 €/mq (100%).
      - **Fascia Specifica:** Relativamente, il canone va da 220 €/mq (10%) a 280 €/mq (90%).
      - **Intervento:** Riducendo la **% Tolleranza** del -5%, i valori relativi diventano 210 €/mq (5%) e 270 €/mq (85%).
-     - **Risultato:** Un canone di 205 €/mq, precedentemente al di sotto del minimo relativo (220 €/mq), ora rientra nella fascia relativa modificata (210 €/mq) senza scendere sotto il minimo assoluto di 200 €/mq.
+     - **Risultato:** Un canone di 205 €/mq, precedentemente al di sotto del minimo relativo (220 €/mq), ora rientra nella fascia relativa modificata (210 €/mq).
 
    - **Scenario 3: Modificare la posizione relativa nella fascia di oscillazione**
      - **Accordo Territoriale:** Canone annuo minimo assoluto = 200 €/mq (0%), massimo assoluto = 300 €/mq (100%).
