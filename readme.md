@@ -140,7 +140,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - **Valore predefinito**: Il valore iniziale è impostato a **0%** e dovrebbe essere riportato a **0%** dopo l’elaborazione per mantenere l'integrità dei calcoli futuri.
    - **Cautela nelle modifiche**: La possibilità di alterare manualmente i valori minimi e massimi del canone annuo in €/mq è pensata per casi eccezionali. Non dovrebbe essere utilizzata abitualmente o per aggirare i limiti imposti dagli accordi territoriali.
 
-   **In sintesi**, questo campo permette di risolvere piccoli scostamenti che impedirebbero l'approvazione di un canone, ma deve essere usato con attenzione e sempre all'interno dei margini consentiti dalle normative vigenti.
+   In sintesi, questo campo permette di risolvere piccoli scostamenti che impedirebbero l'approvazione di un canone, ma deve essere usato con attenzione e sempre all'interno dei margini consentiti dalle normative vigenti.
 
 ## 7. Gestione delle Anagrafiche
 
