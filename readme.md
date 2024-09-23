@@ -124,12 +124,12 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
 
 7. **Modifica della tolleranza:**
    - Modificare il campo "% Tolleranza" nel foglio "Modulo in elaborazione" consente di regolare manualmente i valori minimi e massimi del canone annuo (in €/mq) all'interno delle fasce stabilite dagli accordi territoriali.
-   - Questa regolazione permette di adattare leggermente il canone mensile minimo e massimo calcolato dal sistema, facilitando l'accettazione di canoni che altrimenti sarebbero marginalmente fuori dai limiti previsti.
+   - Questa regolazione permette di adattare leggermente il canone mensile minimo e massimo calcolato dal sistema, facilitando l'accettazione di canoni che altrimenti sarebbero marginalmente fuori dai limiti previsti dal sistema.
    - Le modifiche influenzano la posizione relativa dell'immobile nella fascia di oscillazione complessiva dallo 0% al 100%, ma **non alterano i valori minimi e massimi assoluti** stabiliti dall'accordo territoriale.
 
    **⚠️ Avvertenze Importanti:**
-      - Questo campo deve essere modificato solo se si è certi delle implicazioni, poiché alterare i valori minimi e massimi del canone annuo potrebbe portare fuori dai limiti stabiliti.
-         - Ad esempio, se per un immobile di terza fascia è previsto un massimo del 75% (escluse eventuali maggiorazioni o riduzioni), impostare i valori minimi e massimi per la terza fascia oltre questo limite costituirebbe una violazione degli accordi territoriali.
+      - Questo campo deve essere modificato solo se si è certi delle implicazioni, poiché alterare i valori minimi e massimi del canone annuo potrebbe portare fuori dai limiti stabiliti dagli accordi territoriali.
+         - Ad esempio, se per un immobile di terza fascia è previsto un massimo del 75% (escluse eventuali maggiorazioni o riduzioni), impostare i valori minimi e massimi per la terza fascia oltre questo limite costituirebbe una violazione degli accordi.
       - Il campo è impostato a 0% di default e dovrebbe essere riportato a 0% dopo l'elaborazione per mantenere l'integrità dei calcoli futuri.
       - La possibilità di modificare manualmente i valori deve essere utilizzata con attenzione, assicurandosi di non aggirare i limiti imposti dagli accordi territoriali.
 
