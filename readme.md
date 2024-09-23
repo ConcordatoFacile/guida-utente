@@ -165,19 +165,16 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
 2. **Procedura di salvataggio:**
    - Quando la cella sotto questa voce contiene "Sì", procedere con il salvataggio.
    - Aprire il menu "Funzioni ConcordatoFacile" e selezionare "Salva dati modulo".
-   - Il processo richiede circa 30 secondi e deve essere ripetuto due volte (totale 60 secondi).
+   - Il processo richiede circa 30 secondi.
 
 3. **Gestione delle finestre di progresso:**
    - Durante il salvataggio, si aprirà una finestra che indica lo stato di avanzamento.
    - Se la finestra non si chiude automaticamente al raggiungimento del 100%, chiuderla manualmente.
-   - Ripetere il processo una seconda volta.
 
 4. **Verifica dei dati salvati:**
-   - Dopo aver completato i due salvataggi, cliccare su "Verifica dati modulo" nel menu "Funzioni ConcordatoFacile".
-   - Se vengono rilevati errori (situazione improbabile), ripetere il processo di salvataggio e verifica.
+   - Dopo aver completato il salvataggio, cliccare su "Verifica dati modulo" nel menu "Funzioni ConcordatoFacile".
+   - Se vengono rilevati errori, ripetere il processo di salvataggio e verifica.
    - In assenza di errori, si può procedere alla generazione della documentazione.
-
-   **Nota sul doppio salvataggio:** Il doppio salvataggio è una misura di sicurezza. Questa procedura riduce al minimo i problemi di sincronizzazione tra il vostro dispositivo e i server di Google.
 
 ## 10. Generazione e Gestione della Documentazione
 
@@ -262,7 +259,7 @@ graph TD
     R --> L
     P -->|No| L
     M -->|No| S[Abilitazione calcoli iterativi]
-    S --> T[Salvataggio dati modulo x2]
+    S --> T[Salvataggio dati modulo]
     T --> U[Verifica dati modulo]
     U --> V{Verifica OK?}
     V -->|No| T
