@@ -164,16 +164,8 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
 
 2. **Procedura di salvataggio:**
    - Quando la cella sotto questa voce contiene "Sì", procedere con il salvataggio.
-   - Aprire il menu "Funzioni ConcordatoFacile" e selezionare "Salva dati modulo".
+   - Aprire il menu "Funzioni ConcordatoFacile" e selezionare "Salva e verifica dati".
    - Il processo richiede circa 30 secondi.
-
-3. **Gestione delle finestre di progresso:**
-   - Durante il salvataggio, si aprirà una finestra che indica lo stato di avanzamento.
-   - Se la finestra non si chiude automaticamente al raggiungimento del 100%, chiuderla manualmente.
-
-4. **Verifica dei dati salvati:**
-   - Dopo aver completato il salvataggio, cliccare su "Verifica dati modulo" nel menu "Funzioni ConcordatoFacile".
-   - Se vengono rilevati errori, ripetere il processo di salvataggio e verifica.
    - In assenza di errori, si può procedere alla generazione della documentazione.
 
 ## 10. Generazione e Gestione della Documentazione
