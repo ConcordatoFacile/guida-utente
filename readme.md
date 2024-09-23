@@ -122,16 +122,15 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Nel foglio "Modulo in Elaborazione" è presente una dashboard che mostra il numero di errori nei dati.
    - Prestare attenzione a questa dashboard per garantire la corretta elaborazione del modulo.
 
-7. **Modifica della tolleranza:**
-   - Modificare il campo "% Tolleranza" nel foglio "Modulo in elaborazione" consente di regolare manualmente i valori minimi e massimi del canone annuo (in €/mq) all'interno delle fasce stabilite dagli accordi territoriali.
-   - Questa regolazione permette di adattare leggermente il canone mensile minimo e massimo calcolato dal sistema, facilitando l'accettazione di canoni che altrimenti sarebbero marginalmente fuori dai limiti previsti.
-   - Le modifiche influenzano la posizione relativa dell'immobile nella fascia di oscillazione complessiva dallo 0% al 100%, ma **non alterano i valori minimi e massimi assoluti** stabiliti dall'accordo territoriale.
+7. **Regolazione della Tolleranza:**
+   - Il campo "% Tolleranza" nel foglio "Modulo in elaborazione" consente una regolazione fine dei canoni annui minimi e massimi (€/mq) all'interno delle fasce previste dagli accordi territoriali.
+   - Modificando questo valore, è possibile adattare leggermente il canone mensile minimo e massimo calcolato automaticamente dal sistema, consentendo l'accettazione di canoni che risulterebbero altrimenti marginalmente fuori dai limiti consentiti.
+   - Questa regolazione influenza la posizione dell'immobile all'interno della fascia di oscillazione (0% - 100%), senza tuttavia modificare i valori minimi e massimi assoluti definiti dall'accordo territoriale.
 
-   **⚠️ Avvertenze Importanti:**
-      - Questo campo deve essere modificato solo se si è certi delle implicazioni, poiché alterare i valori minimi e massimi del canone annuo potrebbe portare fuori dai limiti stabiliti dagli accordi territoriali.
-         - Ad esempio, se per un immobile di terza fascia è previsto un massimo del 75% (escluse eventuali maggiorazioni o riduzioni), impostare i valori minimi e massimi per la terza fascia oltre questo limite costituirebbe una violazione degli accordi.
-      - Il campo è impostato a 0% di default e dovrebbe essere riportato a 0% dopo l'elaborazione per mantenere l'integrità dei calcoli futuri.
-      - La possibilità di modificare manualmente i valori deve essere utilizzata con attenzione, assicurandosi di non aggirare i limiti imposti dagli accordi territoriali.
+   **⚠️ Avvertenze:**
+      - La modifica del campo "% Tolleranza" richiede attenzione e consapevolezza delle sue implicazioni. Alterare i valori minimi e massimi del canone annuo potrebbe comportare il superamento dei limiti imposti dagli accordi territoriali.
+         - Ad esempio, se per un immobile di terza fascia l'accordo prevede un massimo del 75% (escluse eventuali maggiorazioni o riduzioni), impostare valori minimi e massimi per tale fascia superiori a questa soglia costituirebbe una violazione.
+      - Il campo è impostato a 0% di default. Si consiglia di ripristinare questo valore dopo l'elaborazione per garantire l'integrità dei calcoli futuri.
 
 ## 7. Gestione delle Anagrafiche
 
