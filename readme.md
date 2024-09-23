@@ -122,7 +122,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    - Nel foglio "Modulo in Elaborazione" è presente una dashboard che mostra il numero di errori nei dati.
    - Prestare attenzione a questa dashboard per garantire la corretta elaborazione del modulo.
 
-7. **Regolazione del coefficiente di regolazione:**
+7. **Coefficiente di regolazione:**
    - Il campo "% Coefficiente di regolazione" nel foglio "Modulo in elaborazione" consente una regolazione fine dei canoni annui minimi e massimi (€/mq) all'interno delle fasce previste dagli accordi territoriali.
    - Modificando questo valore, è possibile adattare leggermente il canone mensile minimo e massimo calcolato automaticamente dal sistema, consentendo l'accettazione di canoni che risulterebbero altrimenti marginalmente fuori dai limiti consentiti.
    - Questa regolazione influenza la posizione dell'immobile all'interno della fascia di oscillazione (0% - 100%), senza tuttavia modificare i valori minimi e massimi assoluti definiti dall'accordo territoriale.
