@@ -129,7 +129,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
 
    **⚠️ Avvertenze Importanti:**
       - Questo campo deve essere modificato solo se si è certi delle implicazioni, poiché alterare i valori minimi e massimi del canone annuo potrebbe portare fuori dai limiti stabiliti.
-         - Ad esempio, se per un immobile di terza fascia è previsto un massimo del 75% (escluse eventuali maggiorazioni o riduzioni), impostare i valori relativi oltre questo limite costituirebbe una violazione degli accordi territoriali.
+         - Ad esempio, se per un immobile di terza fascia è previsto un massimo del 75% (escluse eventuali maggiorazioni o riduzioni), impostare i valori relativi per la terza fascia oltre questo limite costituirebbe una violazione degli accordi territoriali.
       - Il campo è impostato a 0% di default e dovrebbe essere riportato a 0% dopo l'elaborazione per mantenere l'integrità dei calcoli futuri.
       - La possibilità di modificare manualmente i valori deve essere utilizzata con attenzione, assicurandosi di non aggirare i limiti imposti dagli accordi territoriali.
 
