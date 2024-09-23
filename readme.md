@@ -130,6 +130,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
    **⚠️ Avvertenze:**
       - La modifica del campo "% Coefficiente di regolazione" richiede attenzione e consapevolezza delle sue implicazioni. Alterare i valori minimi e massimi del canone annuo potrebbe comportare il superamento dei limiti imposti dagli accordi territoriali.
          - Ad esempio, se per un immobile di terza fascia l'accordo prevede un massimo del 75% (escluse eventuali maggiorazioni o riduzioni), impostare valori minimi e massimi per tale fascia superiori a questa soglia costituirebbe una violazione.
+      - Il range consentito va da -20 a +20.
       - Il campo è impostato a 0% di default. Si consiglia di ripristinare questo valore dopo l'elaborazione per garantire l'integrità dei calcoli futuri.
 
 ## 7. Gestione delle Anagrafiche
