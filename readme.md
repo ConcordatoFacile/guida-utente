@@ -257,9 +257,6 @@ graph TD
     T --> U[Verifica dati modulo]
     U --> V{Verifica OK?}
     V -->|No| T
-    S --> TU[Salvataggio e verifica dati modulo]
-    TU --> V{Verifica OK?}
-    V -->|No| TU
     V -->|Sì| W[Generazione documentazione]
     W --> X[Controllo manuale documentazione]
     X --> Y[Disattivazione calcoli iterativi]
