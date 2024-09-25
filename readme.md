@@ -186,6 +186,8 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
      - Contratto
      - Ricevuta
      - Modulo di iscrizione (se applicabile)
+   
+   **Problema noto:** Occasionalmente, a causa di problemi di sincronizzazione legati alla connessione del dispositivo o alla natura stessa di Google Sheets, i calcoli o il testo del contratto generato potrebbero non corrispondere a quanto visualizzato nell'interfaccia del foglio di calcolo "Modulo in elaborazione". In tal caso, è sufficiente eliminare i documenti e il contratto contenenti i dati non corretti e ripetere la procedura di salvataggio e verifica dati del modulo per aggiornare le informazioni e generare una versione corretta del contratto.
 
 4. **Modifiche manuali:**
    - Se necessario, apportare modifiche ai documenti generati.
