@@ -253,11 +253,8 @@ graph TD
     R --> L
     P -->|No| L
     M -->|No| S[Abilitazione calcoli iterativi]
-    S --> T[Salvataggio dati modulo]
-    T --> U[Verifica dati modulo]
-    U --> V{Verifica OK?}
-    V -->|No| T
-    V -->|Sì| W[Generazione documentazione]
+    S --> T2[Salvataggio e verifica dati modulo]
+    T2 --> W[Generazione documentazione]
     W --> X[Controllo manuale documentazione]
     X --> Y[Disattivazione calcoli iterativi]
     Y --> AA[Archiviazione e invio bozza contratto]
