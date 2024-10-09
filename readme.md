@@ -65,7 +65,7 @@ Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
 2. **Compilazione del modulo:**
    - Il modulo può essere compilato direttamente dall'operatore o inviato a privati, studi legali, CAF, agenzie immobiliari o altre organizzazioni per la compilazione.
    - Assicurarsi che tutte le informazioni richieste siano inserite accuratamente.
-   - **Nota importante**: Durante la compilazione, per comuni che contengono accenti nel nome (ad esempio, "Ciriè"), è necessario inserire il nome senza accento, utilizzando l'apostrofo al posto di quest'ultimo (es. Cirie'). Questo accorgimento è indispensabile per garantire la corretta elaborazione dei dati. Qualora ciò non fosse fatto durante la compilazione del modulo, è comunque possibile correggere i dati successivamente accedendo al foglio di calcolo 'Archivio Moduli', come indicato più avanti.
+   - **Nota importante**: Durante la compilazione, per comuni che contengono accenti nel nome (ad esempio, Ciriè), è necessario inserire il nome senza accento, utilizzando l'apostrofo al posto di quest'ultimo (es. Cirie'). Questo accorgimento è indispensabile per garantire la corretta elaborazione dei dati. Qualora ciò non fosse fatto durante la compilazione del modulo, è comunque possibile correggere i dati successivamente accedendo al foglio di calcolo 'Archivio Moduli', come indicato più avanti.
 
 3. **Risoluzione dei problemi di apertura:**
    - Se si verificano problemi nell'apertura del modulo, verificare le impostazioni del browser relative ai popup.
