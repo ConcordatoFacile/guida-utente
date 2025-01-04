@@ -1,243 +1,265 @@
-# ConcordatoFacile: Guida utente
+# ConcordatoFacile: Guida Operativa per la Gestione dei Contratti di Locazione
 
 ## Indice
+
 1. [Introduzione](#1-introduzione)
-2. [Prerequisiti](#2-prerequisiti)
-3. [Accesso e Navigazione Iniziale](#3-accesso-e-navigazione-iniziale)
-4. [Utilizzo del Modulo JotForm](#4-utilizzo-del-modulo-jotform)
-5. [Gestione dei Dati nel Foglio "Archivio Moduli"](#5-gestione-dei-dati-nel-foglio-archivio-moduli)
-6. [Elaborazione dei Moduli](#6-elaborazione-dei-moduli)
-7. [Gestione delle Anagrafiche](#7-gestione-delle-anagrafiche)
-8. [Configurazione dei Calcoli Iterativi](#8-configurazione-dei-calcoli-iterativi)
-9. [Salvataggio e Verifica dei Dati del Modulo](#9-salvataggio-e-verifica-dei-dati-del-modulo)
-10. [Generazione e Gestione della Documentazione](#10-generazione-e-gestione-della-documentazione)
-11. [Archiviazione e Invio della Bozza del Contratto](#11-archiviazione-e-invio-della-bozza-del-contratto)
-12. [Finalizzazione del Processo](#12-finalizzazione-del-processo)
-13. [Diagramma di Flusso](#13-diagramma-di-flusso)
-14. [Modifica di un Contratto dopo l'Elaborazione](#14-modifica-di-un-contratto-dopo-lelaborazione)
-15. [Supporto e Contatti](#15-supporto-e-contatti)
+2. [Requisiti di Sistema](#2-requisiti-di-sistema)
+3. [Accesso e Configurazione Iniziale](#3-accesso-e-configurazione-iniziale)
+4. [Raccolta Dati tramite Modulo JotForm](#4-raccolta-dati-tramite-modulo-jotform)
+5. [Gestione Dati nel Foglio "Archivio Moduli"](#5-gestione-dati-nel-foglio-archivio-moduli)
+6. [Elaborazione Modulo: Caricamento, Verifica e Correzione Dati](#6-elaborazione-modulo-caricamento-verifica-e-correzione-dati)
+7. [Gestione Anagrafiche e Iscrizione Nuovi Membri](#7-gestione-anagrafiche-e-iscrizione-nuovi-membri)
+8. [Configurazione Calcoli Iterativi per Maggiorazioni/Riduzioni](#8-configurazione-calcoli-iterativi-per-maggiorazioni/riduzioni)
+9. [Salvataggio e Verifica Dati del Modulo](#9-salvataggio-e-verifica-dati-del-modulo)
+10. [Generazione, Revisione e Modifica Documentazione](#10-generazione-revisione-e-modifica-documentazione)
+11. [Archiviazione, Invio Bozza e Finalizzazione del Processo](#11-archiviazione-invio-bozza-e-finalizzazione-del-processo)
+12. [Diagramma di Flusso del Processo](#12-diagramma-di-flusso-del-processo)
+13. [Procedura di Modifica di un Contratto Elaborato](#13-procedura-di-modifica-di-un-contratto-elaborato)
+14. [Supporto Tecnico e Contatti](#14-supporto-tecnico-e-contatti)
 
 ## 1. Introduzione
 
-Benvenuti alla guida utente di ConcordatoFacile, un sistema per la gestione e l'elaborazione di contratti di locazione a canone concordato. Questo documento fornisce istruzioni passo-passo per utilizzare efficacemente il sistema, dalla raccolta dei dati iniziali attraverso JotForm fino alla generazione e all'archiviazione dei documenti finali.
+Benvenuti nella guida operativa di **ConcordatoFacile**, un sistema progettato per semplificare la gestione e l'elaborazione dei contratti di locazione a canone concordato. Questo manuale fornisce istruzioni dettagliate per utilizzare tutte le funzionalità del sistema, a partire dalla raccolta dei dati tramite il modulo JotForm, fino alla generazione, archiviazione e invio dei documenti finali.
 
-ConcordatoFacile è stato progettato per semplificare ogni fase del processo di creazione dei contratti, riducendo al minimo l'intervento manuale. Tuttavia, l'uso del sistema **non garantisce la correttezza, la completezza o la conformità legale** dei documenti prodotti. La responsabilità del **controllo finale dei documenti generati** e della loro conformità alle normative vigenti ricade **esclusivamente sull’utilizzatore del sistema**. Nessuna responsabilità può essere attribuita per **errori, omissioni o incongruenze** nei documenti, né per il mancato rispetto di leggi o regolamenti. **Non si forniscono garanzie legali o di altro tipo** riguardo all'utilizzo del sistema e agli output da esso prodotti.
+**Disclaimer Importante:** ConcordatoFacile è uno strumento di supporto e, come tale, **non garantisce la correttezza, la completezza o la conformità legale** dei documenti prodotti. L'utente è **esclusivamente responsabile** della **verifica finale** dei documenti generati, del loro allineamento alle specifiche esigenze e della loro conformità alle normative vigenti. **Non si assume alcuna responsabilità** per errori, omissioni, incongruenze nei documenti o per la non conformità a leggi o regolamenti. **Non si forniscono garanzie**, esplicite o implicite, sull'utilizzo del sistema e sui documenti generati.
 
-## 2. Prerequisiti
+## 2. Requisiti di Sistema
 
-Prima di iniziare a utilizzare ConcordatoFacile, assicurarsi di avere:
+Prima di utilizzare ConcordatoFacile, assicurarsi di disporre dei seguenti requisiti:
 
-- Accesso all'account Google di ConcordatoFacile (le credenziali saranno fornite separatamente)
-- Un browser web aggiornato (preferibilmente Google Chrome)
-- Familiarità di base con Google Drive e Google Sheets
-- **Una connessione internet stabile**: si consiglia una velocità minima di 30 Mbps. Connessioni lente o instabili possono causare problemi di sincronizzazione, come errori nei calcoli, mancati aggiornamenti dei dati o fallimento nel salvataggio delle modifiche apportate ai documenti.
+*   **Credenziali di Accesso:** Accesso all'account Google di ConcordatoFacile (fornite separatamente).
+*   **Browser Web:** Un browser web aggiornato (Google Chrome è consigliato per una migliore compatibilità).
+*   **Conoscenze di Base:** Familiarità con l'utilizzo di Google Drive e Fogli Google.
+*   **Connessione Internet Stabile:** Una connessione internet stabile con una velocità minima consigliata di 30 Mbps. **Connessioni lente o instabili possono compromettere la sincronizzazione dei dati, causando errori nei calcoli, mancati aggiornamenti o problemi nel salvataggio delle modifiche.**
 
-## 3. Accesso e Navigazione Iniziale
+## 3. Accesso e Configurazione Iniziale
 
-1. **Accesso all'account Google:**
-   - Utilizzare le credenziali fornite per accedere all'account Google di ConcordatoFacile.
-   - In caso di problemi di accesso, contattare immediatamente il supporto tecnico.
+Seguire attentamente questi passaggi per accedere e configurare correttamente il sistema:
 
-2. **Navigazione su Google Drive:**
-   - Una volta effettuato l'accesso, aprire Google Drive dal menu delle applicazioni Google.
-   - Nella sezione "Il mio Drive", individuare la cartella denominata "ConcordatoFacile".
-   - Aprire questa cartella per accedere ai file del sistema.
+1. **Accesso all'Account Google:**
+    *   Utilizzando le credenziali fornite, accedere all'account Google di ConcordatoFacile.
+    *   **In caso di difficoltà di accesso, contattare immediatamente il supporto tecnico.**
 
-3. **Apertura del foglio di lavoro principale:**
-   - All'interno della cartella ConcordatoFacile, cercare il file Google Sheets con "concordatofacile" nel nome (identificabile dall'icona verde caratteristica di Google Sheets).
-   - Aprire questo file facendo doppio clic sul suo nome.
+2. **Navigazione in Google Drive:**
+    *   Dopo aver effettuato l'accesso, aprire Google Drive dal menu delle applicazioni Google (icona a griglia di nove punti).
+    *   Nella sezione "Il mio Drive", individuare e aprire la cartella denominata "ConcordatoFacile".
 
-4. **Interfaccia del foglio di lavoro:**
-   - Una volta aperto il file, si presenterà l'interfaccia standard di Google Sheets.
-   - Familiarizzare con la barra degli strumenti nella parte superiore, che inizia con il menu "File" a sinistra.
+3. **Apertura del Foglio di Lavoro Principale:**
+    *   All'interno della cartella "ConcordatoFacile", individuare il file Fogli Google con "concordatofacile" nel nome (icona verde di Fogli Google).
+    *   Aprire il file facendo doppio clic sul nome.
 
-5. **Attivazione delle funzionalità di ConcordatoFacile:**
-   - Fare clic su **"Start"** nella barra degli strumenti e selezionare **"Verifica Licenza"**.
-   - Leggere l'avviso e fare clic su **"OK"**.
-   - Se la licenza è valida, apparirà il pulsante **"Funzioni ConcordatoFacile"** accanto a **"Start"**.
+4. **Interfaccia Utente:**
+    *   Il file si aprirà nell'interfaccia standard di Fogli Google.
+    *   Familiarizzare con la barra degli strumenti superiore, che include il menu "File" a sinistra e le icone delle funzioni standard.
 
-## 4. Utilizzo del Modulo JotForm
+5. **Attivazione delle Funzionalità di ConcordatoFacile:**
+    *   Cliccare sul pulsante **"Start"** nella barra degli strumenti e selezionare **"Verifica Licenza"**.
+    *   Leggere attentamente l'avviso e cliccare su **"OK"**.
+    *   Se la licenza è attiva, apparirà il pulsante **"Funzioni ConcordatoFacile"** accanto al pulsante **"Start"**. Questo pulsante darà accesso a tutte le funzioni specifiche del sistema.
 
-1. **Accesso al modulo JotForm:**
-   - Nel menu "Funzioni ConcordatoFacile", cliccare sul primo pulsante in alto denominato "Link al modulo JotForm".
-   - Se il modulo non si apre automaticamente, potrebbe essere necessario autorizzare l'apertura dei popup nel browser.
+## 4. Raccolta Dati tramite Modulo JotForm
 
-2. **Compilazione del modulo:**
-   - Il modulo può essere compilato direttamente dall'operatore o inviato a privati, studi legali, CAF, agenzie immobiliari o altre organizzazioni per la compilazione.
-   - Assicurarsi che tutte le informazioni richieste siano inserite accuratamente.
-   
-   **Nota importante**: Durante la compilazione, per comuni che contengono accenti nel nome (ad esempio, Ciriè), è necessario inserire il nome senza accento, utilizzando l'apostrofo al posto di quest'ultimo (es. Cirie'). Questo accorgimento è indispensabile per garantire la corretta elaborazione dei dati. Qualora ciò non fosse fatto durante la compilazione del modulo, è comunque possibile correggere i dati successivamente accedendo al foglio di calcolo 'Archivio Moduli', come indicato più avanti.
+Il modulo JotForm è lo strumento principale per la raccolta dei dati necessari alla creazione dei contratti.
 
-3. **Risoluzione dei problemi di apertura:**
-   - Se si verificano problemi nell'apertura del modulo, verificare le impostazioni del browser relative ai popup.
-   - Per assistenza tecnica, contattare il supporto all'indirizzo germ.riccio@gmail.com.
+1. **Accesso al Modulo JotForm:**
+    *   Cliccare sul pulsante "Funzioni ConcordatoFacile" nella barra degli strumenti.
+    *   Selezionare il primo pulsante in alto, denominato "Link al modulo JotForm".
+    *   Il modulo si aprirà in una nuova finestra del browser. **Se il modulo non si apre, verificare le impostazioni del browser relative ai popup e autorizzare l'apertura di finestre popup da questo sito.**
 
-## 5. Gestione dei Dati nel Foglio "Archivio Moduli"
+2. **Compilazione del Modulo:**
+    *   Il modulo può essere compilato direttamente dall'operatore o inviato a terzi (privati, studi legali, CAF, agenzie immobiliari, ecc.) per la compilazione.
+    *   **Compilare tutti i campi del modulo con attenzione e precisione.** Ogni campo è essenziale per la corretta elaborazione del contratto.
+    *   **Attenzione ai Nomi dei Comuni con Accenti:** Per i comuni con nomi accentati (es. Ciriè), inserire il nome senza l'accento, sostituendolo con un apostrofo (es. Cirie'). **Questo è cruciale per il corretto funzionamento del sistema.** Se l'errore non viene rilevato in questa fase, è comunque possibile correggerlo successivamente nel foglio "Archivio Moduli".
 
-1. **Navigazione al foglio "Archivio Moduli":**
-   - Una volta compilato il modulo JotForm, tornare al file Google Sheets e selezionare il foglio "Archivio Moduli" dalla barra in basso.
+3. **Risoluzione Problemi di Apertura:**
+    *   In caso di problemi persistenti nell'apertura del modulo, contattare il supporto tecnico all'indirizzo email fornito nella sezione "Supporto Tecnico e Contatti".
 
-2. **Struttura del foglio "Archivio Moduli":**
-   - In questo foglio, le informazioni raccolte tramite i moduli JotForm sono archiviate orizzontalmente.
-   - Ogni riga corrisponde a un singolo modulo JotForm compilato.
-   - Le nuove compilazioni del modulo JotForm creano automaticamente nuove righe in questo foglio.
+## 5. Gestione Dati nel Foglio "Archivio Moduli"
 
-3. **Identificazione dei moduli non elaborati:**
-   - La prima colonna del foglio, con l'header "Elaborati", indica lo stato di elaborazione di ogni modulo.
-   - Se in una cella sotto "Elaborati" è presente "Sì", il modulo corrispondente è stato elaborato.
-   - Le celle vuote in questa colonna indicano moduli non ancora elaborati.
+Il foglio "Archivio Moduli" è il database centrale dove vengono memorizzati tutti i dati raccolti tramite i moduli JotForm.
 
-4. **Importanza dell'integrità dei dati:**
-   - Tutte le modifiche ai dati devono essere effettuate **esclusivamente** nel foglio "Archivio Moduli".
-   - È fondamentale non modificare manualmente i dati in altri fogli del file, poiché ciò **potrebbe compromettere il funzionamento del sistema**.
-   - **Non modificare l'ordine delle colonne:** L'ordine delle colonne nel foglio "Archivio Moduli" è critico per il corretto funzionamento di ConcordatoFacile. Se si nota che l'ordine delle colonne è stato accidentalmente modificato, **contattare immediatamente il supporto tecnico** prima di procedere con qualsiasi altra operazione.
+1. **Accesso al Foglio "Archivio Moduli":**
+    *   Dopo aver compilato e inviato un modulo JotForm, tornare al foglio di lavoro principale di ConcordatoFacile.
+    *   Nella barra di navigazione inferiore, selezionare il foglio denominato "Archivio Moduli".
 
-## 6. Elaborazione dei Moduli
+2. **Struttura del Foglio "Archivio Moduli":**
+    *   I dati sono organizzati in righe e colonne.
+    *   **Ogni riga corrisponde a un singolo modulo JotForm compilato.**
+    *   Ogni colonna rappresenta un campo specifico del modulo JotForm.
+    *   **Le nuove compilazioni del modulo JotForm aggiungono automaticamente nuove righe in fondo al foglio.**
 
-1. **Accesso al foglio "Modulo in Elaborazione":**
-   - Passare al foglio "Modulo in Elaborazione" per iniziare il processo di elaborazione.
-   - Questo foglio visualizzerà automaticamente il modulo non elaborato più vecchio.
+3. **Identificazione dei Moduli Elaborati e Non Elaborati:**
+    *   La prima colonna, denominata "Elaborati", indica lo stato di elaborazione di ogni modulo.
+    *   Una cella con "Sì" indica che il modulo è stato elaborato.
+    *   **Una cella vuota indica che il modulo non è ancora stato elaborato.**
 
-2. **Caricamento dei documenti:**
-   - Nel menu "Funzioni ConcordatoFacile", selezionare "Carica allegati in Google Drive".
-   - Questa operazione caricherà tutti gli allegati inviati tramite JotForm nell'archivio di ConcordatoFacile.
+4. **Regole Fondamentali per la Modifica dei Dati:**
+    *   **Tutte le modifiche ai dati DEVONO essere effettuate ESCLUSIVAMENTE nel foglio "Archivio Moduli".**
+    *   **NON modificare i dati in altri fogli del file.** Questo potrebbe compromettere il corretto funzionamento del sistema e causare errori irreversibili.
+    *   **NON modificare l'ordine delle colonne nel foglio "Archivio Moduli".** L'ordine delle colonne è fondamentale per il funzionamento di ConcordatoFacile. **Se si rileva una modifica accidentale nell'ordine delle colonne, contattare immediatamente il supporto tecnico PRIMA di eseguire qualsiasi altra operazione.**
 
-3. **Verifica e correzione dei dati:**
-   - Nel foglio "Modulo in Elaborazione", le colonne gialle evidenziano eventuali problemi con i dati inviati.
-   - Per correggere questi dati, tornare al foglio "Archivio Moduli".
-   - Individuare la riga corrispondente al modulo in elaborazione.
-   - Apportare le modifiche necessarie direttamente nelle celle appropriate del foglio "Archivio Moduli".
-   
-   **Problema noto:** I nomi delle colonne nel foglio "Archivio Moduli" potrebbero non corrispondere esattamente ai dati visualizzati nelle righe. Per individuare il campo specifico che si desidera modificare, si consiglia di:
-   - **Identificare la riga** su cui si sta lavorando.
-   - Utilizzare la funzione "Trova" (**Ctrl+F**) per **cercare direttamente il contenuto** che si intende correggere all'interno della riga selezionata.
-   - **Non fare affidamento sui nomi delle colonne** per individuare la cella, ma utilizzare la ricerca per contenuto come descritto sopra.
-  
-5. **Gestione dei caratteri speciali nei campi di testo:**
-   - Prestare particolare attenzione ai campi di testo che contengono apostrofi o altri caratteri speciali.
-   - In alcuni casi, specialmente quando il modulo JotForm viene compilato da dispositivi mobili, possono essere inseriti caratteri non standard (come ` invece di ').
-   - Questi caratteri non standard possono causare errori nell'elaborazione dei dati o nella generazione dei codici fiscali.
-   - Se si notano problemi con l'elaborazione dei dati o con i codici fiscali, controllare e correggere manualmente i campi di testo nel foglio "Archivio Moduli".
-   - Esempio: Se "Sant'Antimo" appare come "Sant\`Antimo", sostituire il carattere ` con un apostrofo standard (').
+## 6. Elaborazione Modulo: Caricamento, Verifica e Correzione Dati
 
-6. **Dashboard errori:**
-   - Nel foglio "Modulo in Elaborazione" è presente una dashboard che mostra il numero di errori nei dati.
-   - Prestare attenzione a questa dashboard per garantire la corretta elaborazione del modulo.
+Questa sezione descrive il processo di elaborazione di un singolo modulo, dalla verifica dei dati alla loro correzione.
 
-## 7. Gestione delle Anagrafiche
+1. **Accesso al Foglio "Modulo in Elaborazione":**
+    *   Nella barra di navigazione inferiore, selezionare il foglio denominato "Modulo in Elaborazione".
+    *   **Questo foglio visualizzerà automaticamente i dati del modulo non elaborato più vecchio presente nel foglio "Archivio Moduli".**
 
-1. **Gestione dei membri non iscritti:**
-   - Le richieste provenienti da membri non ancora iscritti all'associazione vengono conteggiate come errori.
-   - Per risolvere questo problema, seguire i passaggi seguenti.
+2. **Caricamento degli Allegati in Google Drive:**
+    *   Cliccare su "Funzioni ConcordatoFacile".
+    *   Selezionare l'opzione "Carica allegati in Google Drive".
+    *   Questa operazione caricherà tutti gli allegati inviati tramite il modulo JotForm nella cartella "ConcordatoFacile" in Google Drive, organizzandoli in sotto-cartelle per una gestione ottimale.
 
-2. **Iscrizione di nuovi membri:**
-   - Navigare al foglio "Gestione Anagrafiche".
-   - Aprire il menu "Funzioni ConcordatoFacile" e selezionare "Nuova Iscrizione".
-   - Il sistema inserirà automaticamente i dati del nuovo membro nel database delle anagrafiche.
+3. **Verifica e Correzione dei Dati:**
+    *   Nel foglio "Modulo in Elaborazione", le celle evidenziate in giallo indicano potenziali errori o dati mancanti.
+    *   **Per correggere questi dati, è necessario tornare al foglio "Archivio Moduli".**
+    *   Individuare la riga corrispondente al modulo in elaborazione (la riga con la cella vuota nella colonna "Elaborati").
+    *   Apportare le modifiche necessarie direttamente nelle celle corrispondenti del foglio "Archivio Moduli".
 
-3. **Inserimento della data di iscrizione:**
-   - Nella riga del nuovo membro, individuare la colonna con l'header arancione che richiede la data di iscrizione.
-   - Inserire manualmente la data di iscrizione all'associazione nella cella corrispondente.
+    **Importante - Individuazione Corretta dei Campi da Modificare nel Foglio "Archivio Moduli":**
+    *   A causa di possibili discrepanze tra i nomi delle colonne nel foglio "Archivio Moduli" e i dati visualizzati, **si consiglia vivamente di NON affidarsi ai nomi delle colonne per individuare il campo da modificare.**
+    *   Utilizzare invece la funzione di ricerca (**Ctrl+F** in Windows/Linux o **Cmd+F** in macOS) per **cercare direttamente il CONTENUTO del campo che si desidera correggere all'interno della riga selezionata.**
+    *   Ad esempio, se si desidera correggere il cognome "Rossi" in "Bianchi", cercare "Rossi" all'interno della riga con Ctrl+F e apportare la modifica nella cella individuata.
 
-4. **Verifica della risoluzione degli errori:**
-   - Tornare al foglio "Modulo in Elaborazione".
-   - Controllare la dashboard degli errori: dovrebbe ora indicare zero errori.
-   - Se persistono errori, ricontrollare i dati inseriti e ripetere il processo se necessario.
+4. **Gestione dei Caratteri Speciali:**
+    *   Prestare particolare attenzione ai campi di testo che potrebbero contenere caratteri speciali, come apostrofi non standard (` invece di ') inseriti da dispositivi mobili.
+    *   Questi caratteri possono generare errori nell'elaborazione dei dati o nella generazione dei codici fiscali.
+    *   **Se si riscontrano problemi con codici fiscali o elaborazione dati, controllare attentamente i campi di testo nel foglio "Archivio Moduli" e sostituire i caratteri non standard con quelli corretti.**
+    *   Esempio: Se "Sant'Antimo" viene visualizzato come "Sant\`Antimo", sostituire il carattere ` con un apostrofo standard (').
 
-## 8. Configurazione dei Calcoli Iterativi
+5. **Dashboard Errori:**
+    *   Il foglio "Modulo in Elaborazione" include una dashboard che mostra il numero di errori rilevati.
+    *   **Monitorare attentamente questa dashboard durante la fase di correzione per assicurarsi che tutti gli errori siano stati risolti.**
 
-1. **Accesso alle impostazioni di calcolo:**
-   - Nella barra degli strumenti, cliccare su "File".
-   - Selezionare "Impostazioni" o "Settings" dal menu a tendina.
+## 7. Gestione Anagrafiche e Iscrizione Nuovi Membri
 
-2. **Attivazione dei calcoli iterativi:**
-   - Nella finestra delle impostazioni, selezionare la scheda "Calcolo" o "Calculations".
-   - Individuare l'opzione "Calcoli iterativi" o "Iterative calculations".
-   - Attivare questa opzione per consentire a ConcordatoFacile di eseguire i calcoli necessari.
+Questa sezione spiega come gestire le anagrafiche dei membri e come iscrivere nuovi membri all'associazione.
 
-3. **Importanza dei calcoli iterativi:**
-   - Questa impostazione è cruciale per l'applicazione corretta di eventuali maggiorazioni o riduzioni previste dall'accordo territoriale del comune in cui è ubicato l'immobile.
+1. **Gestione dei Membri Non Iscritti:**
+    *   Le richieste provenienti da membri non ancora iscritti all'associazione vengono segnalate come errori nella dashboard del foglio "Modulo in Elaborazione".
+    *   Per risolvere questi errori, è necessario iscrivere i nuovi membri.
 
-## 9. Salvataggio e Verifica dei Dati del Modulo
+2. **Procedura di Iscrizione di un Nuovo Membro:**
+    *   Nella barra di navigazione inferiore, selezionare il foglio denominato "Gestione Anagrafiche".
+    *   Cliccare su "Funzioni ConcordatoFacile".
+    *   Selezionare l'opzione "Nuova Iscrizione".
+    *   **Il sistema inserirà automaticamente i dati del nuovo membro (prelevati dal modulo JotForm) nel database delle anagrafiche.**
 
-1. **Verifica dello stato di salvataggio:**
-   - Nel foglio "Modulo in Elaborazione", individuare il pannello che indica lo stato dei calcoli in corso.
-   - Cercare la voce "⬇️ Salvare i dati del modulo?".
+3. **Inserimento della Data di Iscrizione:**
+    *   Nella riga del nuovo membro appena inserito, individuare la colonna con l'intestazione arancione che richiede la data di iscrizione.
+    *   **Inserire manualmente la data di iscrizione all'associazione nella cella corrispondente.**
 
-2. **Procedura di salvataggio:**
-   - Quando la cella sotto questa voce contiene "Sì", procedere con il salvataggio.
-   - Aprire il menu "Funzioni ConcordatoFacile" e selezionare "Salva e verifica dati".
-   - Il processo richiede circa 30 secondi.
-   - In assenza di errori, si può procedere alla generazione della documentazione.
+4. **Verifica Risoluzione Errori:**
+    *   Tornare al foglio "Modulo in Elaborazione".
+    *   **Verificare che la dashboard degli errori indichi ora zero errori.**
+    *   Se gli errori persistono, ricontrollare i dati inseriti e ripetere la procedura di iscrizione, se necessario.
 
-## 10. Generazione e Gestione della Documentazione
+## 8. Configurazione Calcoli Iterativi per Maggiorazioni/Riduzioni
 
-1. **Avvio della generazione dei documenti:**
-   - Nel menu "Funzioni ConcordatoFacile", selezionare "Genera contratto".
-   - Attendere alcuni secondi per il completamento del processo.
+Questa configurazione è fondamentale per l'applicazione corretta delle maggiorazioni o riduzioni previste dall'accordo territoriale del comune in cui si trova l'immobile.
 
-2. **Conferma di generazione:**
-   - Apparirà una finestra di conferma che indica la corretta generazione del contratto.
-   - Questa finestra conterrà un link per visualizzare immediatamente la documentazione generata.
+1. **Accesso alle Impostazioni del Foglio di Lavoro:**
+    *   Nella barra degli strumenti di Fogli Google, cliccare su "File".
+    *   Selezionare "Impostazioni" dal menu a tendina.
 
-3. **Revisione della documentazione:**
-   - Cliccare sul link fornito per esaminare i documenti generati.
-   - Controllare attentamente tutti gli elementi della documentazione, inclusi:
-     - Scheda riepilogativa
-     - Asseverazione
-     - Contratto
-     - Ricevuta
-     - Modulo di iscrizione (se applicabile)
-   
-   **Problema noto:** Occasionalmente, a causa di problemi di sincronizzazione legati alla connessione del dispositivo o alla natura stessa di Google Sheets, i calcoli o il testo del contratto generato potrebbero non corrispondere a quanto visualizzato nell'interfaccia del foglio di calcolo "Modulo in elaborazione". In tal caso, è sufficiente eliminare i documenti e il contratto contenenti i dati non corretti e ripetere la procedura di salvataggio e verifica dati del modulo per aggiornare le informazioni e generare una versione corretta del contratto.
+2. **Attivazione dei Calcoli Iterativi:**
+    *   Nella finestra delle impostazioni, selezionare la scheda "Calcolo".
+    *   Individuare l'opzione "Calcolo iterativo".
+    *   **Attivare l'opzione "Calcolo iterativo" spostando il cursore su "Sì" o selezionando l'opzione "Attiva".**
+    *   Cliccare su "Salva impostazioni".
 
-4. **Modifiche manuali:**
-   - Se necessario, apportare modifiche ai documenti generati.
-   - Prestare particolare attenzione a dettagli specifici che potrebbero richiedere personalizzazione.
-  
-5. **Disattivazione dei calcoli iterativi:**
-   - Dopo aver generato e controllato tutti i documenti, è importante disattivare i calcoli iterativi.
-   - Tornare alla barra degli strumenti di Google Sheets e cliccare su "File".
-   - Selezionare nuovamente "Impostazioni" o "Settings".
-   - Nella scheda "Calcolo" o "Calculations", disattivare l'opzione "Calcoli iterativi" o "Iterative calculations".
-   - Questa azione è cruciale per evitare rallentamenti nel foglio di calcolo durante le successive operazioni.
+3. **Importanza di Questa Configurazione:**
+    *   **Questa impostazione è ESSENZIALE per il corretto calcolo del canone di locazione in base alle specifiche dell'accordo territoriale applicabile.**
 
-## 11. Archiviazione e Invio della Bozza del Contratto
+## 9. Salvataggio e Verifica Dati del Modulo
 
-1. **Navigazione al foglio di gestione:**
-   - Tornare al file Google Sheets principale.
-   - Selezionare il foglio "Gestione contratti e comunicazioni".
+Dopo aver corretto tutti gli errori e configurato i calcoli iterativi, è necessario salvare e verificare i dati del modulo.
 
-2. **Processo di archiviazione:**
-   - Aprire il menu "Funzioni ConcordatoFacile".
-   - Selezionare l'opzione "Archivia e invia bozza contratto".
-   - Questa azione archivierà automaticamente il contratto in Google Drive.
+1. **Verifica dello Stato di Salvataggio:**
+    *   Nel foglio "Modulo in Elaborazione", individuare il riquadro che indica lo stato dei calcoli.
+    *   Cercare la voce "⬇️ Salvare i dati del modulo?".
 
-3. **Opzioni di invio:**
-   - Durante il processo di archiviazione, sarà possibile scegliere se inviare automaticamente i documenti al membro dell'associazione che li ha richiesti.
-   - Seguire le istruzioni a schermo per completare l'invio, se desiderato.
+2. **Procedura di Salvataggio e Verifica:**
+    *   **Quando la cella sotto la voce "⬇️ Salvare i dati del modulo?" contiene il valore "Sì", è possibile procedere con il salvataggio.**
+    *   Cliccare su "Funzioni ConcordatoFacile".
+    *   Selezionare l'opzione "Salva e verifica dati".
+    *   **Il processo richiederà circa 30 secondi.**
+    *   Al termine del processo, se non vengono rilevati errori, si potrà procedere con la generazione della documentazione.
 
-## 12. Finalizzazione del Processo
+## 10. Generazione, Revisione e Modifica Documentazione
 
-1. **Ritorno al foglio "Archivio Moduli":**
-   - Navigare nuovamente al foglio "Archivio Moduli".
+Questa sezione descrive come generare i documenti contrattuali, come effettuare una revisione accurata e come apportare eventuali modifiche.
 
-2. **Marcatura del modulo come elaborato:**
-   - Individuare la riga corrispondente al modulo appena elaborato.
-   - Nella prima colonna (header "Elaborato"), inserire "Sì" nella cella corrispondente.
+1. **Generazione della Documentazione:**
+    *   Cliccare su "Funzioni ConcordatoFacile".
+    *   Selezionare l'opzione "Genera contratto".
+    *   Attendere alcuni secondi per il completamento del processo di generazione.
 
-3. **Effetti dell'azione:**
-   - Questa operazione escluderà il modulo dalla coda di elaborazione.
-   - Il sistema caricherà automaticamente il prossimo modulo non elaborato, se presente.
+2. **Conferma e Accesso alla Documentazione Generata:**
+    *   Al termine del processo, apparirà una finestra di conferma che indica che il contratto è stato generato correttamente.
+    *   **Questa finestra conterrà un link per visualizzare immediatamente la documentazione generata.**
 
-## 13. Diagramma di Flusso
+3. **Revisione Approfondita della Documentazione:**
+    *   Cliccare sul link fornito nella finestra di conferma per aprire la documentazione in una nuova scheda del browser.
+    *   **Esaminare attentamente TUTTI i documenti generati, inclusi:**
+        *   **Scheda riepilogativa:** Verifica dei dati principali del contratto.
+        *   **Asseverazione:** Controllo dell'asseverazione, se prevista.
+        *   **Contratto:** Verifica di tutti i dati contrattuali, inclusi quelli relativi a locatore, conduttore, immobile e canone.
+        *   **Ricevuta:** Controllo dell'importo e dei dati della ricevuta.
+        *   **Modulo di iscrizione:** Verifica dei dati del modulo di iscrizione, se applicabile.
+
+    **Gestione di Errori di Sincronizzazione (Problema Noto):**
+    *   Occasionalmente, a causa di problemi di sincronizzazione legati alla connessione internet o a Fogli Google, i calcoli o il testo del contratto generato potrebbero non corrispondere a quanto visualizzato nel foglio "Modulo in Elaborazione".
+    *   **Se si riscontrano queste incongruenze, NON procedere con l'invio del contratto.**
+    *   Eliminare i documenti errati da Google Drive.
+    *   Tornare al foglio "Modulo in Elaborazione" e ripetere la procedura "Salva e verifica dati" (Sezione 9).
+    *   Generare nuovamente il contratto (punto 1 di questa sezione).
+    *   Ripetere il controllo come descritto al punto 3 di questa sezione.
+
+4. **Modifiche Manuali ai Documenti:**
+    *   Se necessario, è possibile apportare modifiche manuali ai documenti generati per adattarli a specifiche esigenze o correggere errori minori non rilevati dal sistema.
+    *   **Prestare particolare attenzione ai dettagli che potrebbero richiedere una personalizzazione.**
+
+5. **Disattivazione dei Calcoli Iterativi:**
+    *   **Dopo aver generato, controllato e, se necessario, modificato i documenti, è FONDAMENTALE disattivare i calcoli iterativi.**
+    *   Tornare al menu "File" -> "Impostazioni".
+    *   Nella scheda "Calcolo", disattivare l'opzione "Calcolo iterativo" spostando il cursore su "No" o selezionando l'opzione "Disattiva".
+    *   Cliccare su "Salva impostazioni".
+    *   **Questa operazione è essenziale per evitare rallentamenti del foglio di calcolo durante le successive operazioni.**
+
+## 11. Archiviazione, Invio Bozza e Finalizzazione del Processo
+
+Questa sezione illustra come archiviare la documentazione generata, inviare una bozza al richiedente e concludere il processo di elaborazione.
+
+1. **Accesso al Foglio di Gestione:**
+    *   Tornare al foglio di lavoro principale di ConcordatoFacile.
+    *   Nella barra di navigazione inferiore, selezionare il foglio denominato "Gestione contratti e comunicazioni".
+
+2. **Archiviazione e Invio Bozza:**
+    *   Cliccare su "Funzioni ConcordatoFacile".
+    *   Selezionare l'opzione "Archivia e invia bozza contratto".
+    *   **Questa azione archivierà automaticamente una copia del contratto in Google Drive, in una cartella dedicata.**
+    *   Durante il processo, verrà richiesto se si desidera inviare automaticamente la bozza del contratto al membro dell'associazione che ha effettuato la richiesta.
+    *   Seguire le istruzioni visualizzate per completare l'invio, se desiderato.
+
+3. **Finalizzazione del Processo:**
+    *   Tornare al foglio "Archivio Moduli".
+    *   Individuare la riga corrispondente al modulo appena elaborato.
+    *   Nella prima colonna ("Elaborati"), inserire "Sì" nella cella corrispondente.
+    *   **Questa operazione contrassegna il modulo come elaborato e lo rimuove dalla coda di elaborazione.**
+    *   Se sono presenti altri moduli non elaborati, il sistema caricherà automaticamente il successivo nel foglio "Modulo in Elaborazione".
+
+## 12. Diagramma di Flusso del Processo
+
+Il seguente diagramma di flusso illustra visivamente l'intero processo di utilizzo di ConcordatoFacile:
 
 ```mermaid
 graph TD
     A[Inizio] --> B[Accesso account Google]
     B --> C[Apertura Google Drive]
     C --> D[Apertura foglio Google Sheets ConcordatoFacile]
-    D --> E[Clic su 'Start']
+    D --> E[Clic su 'Start' -> 'Verifica Licenza']
     E --> F{Licenza valida?}
     F -->|No| Z[Contatta supporto]
     F -->|Sì| G[Appare pulsante 'Funzioni ConcordatoFacile']
@@ -260,63 +282,72 @@ graph TD
     W --> X[Controllo manuale documentazione]
     X --> Y[Disattivazione calcoli iterativi]
     Y --> AA[Archiviazione e invio bozza contratto]
-    AA --> BB[Contrassegna modulo come elaborato]
+    AA --> BB[Contrassegna modulo come elaborato in 'Archivio Moduli']
     BB --> CC{Altri moduli da elaborare?}
     CC -->|Sì| J
     CC -->|No| DD[Fine]
     Z --> DD
 ```
 
-## 14. Modifica di un Contratto dopo l'Elaborazione
+## 13. Procedura di Modifica di un Contratto Elaborato
 
-In alcune situazioni, potrebbe essere necessario apportare modifiche a un contratto già elaborato. Di seguito sono riportati i passaggi per modificare un contratto generato e riportarlo nel flusso di elaborazione:
+In alcuni casi, potrebbe essere necessario modificare un contratto già elaborato. Questa sezione descrive la procedura dettagliata per effettuare tale modifica e reinserire il contratto nel flusso di elaborazione.
 
-1. **Localizzazione del contratto in Google Drive:**
-   - Utilizzare la funzione di ricerca avanzata di Google Drive per trovare il file del contratto.
-   - Nota: Per dettagli sull'uso della ricerca avanzata, contattare il supporto tecnico.
+1. **Individuazione del Contratto in Google Drive:**
+    *   Accedere a Google Drive e utilizzare la funzione di ricerca per trovare il file del contratto che si desidera modificare.
+    *   **Nota:** Per assistenza sull'utilizzo della funzione di ricerca avanzata di Google Drive, contattare il supporto tecnico.
 
-2. **Apertura del contratto:**
-   - Una volta individuato il file, aprirlo in Google Drive.
+2. **Apertura del Contratto e Recupero dell'ID File:**
+    *   Aprire il file del contratto in Google Drive.
+    *   Nella barra degli indirizzi del browser, individuare l'URL del documento.
+    *   Copiare l'ID del file, che è la stringa di caratteri alfanumerici compresa tra "/d/" e "/edit" nell'URL.
+    *   **Esempio:** Se l'URL è `https://docs.google.com/document/d/1AbC2dE3fGhIjKlMnOpQrStUvWxYz/edit`, l'ID del file è `1AbC2dE3fGhIjKlMnOpQrStUvWxYz`.
 
-3. **Identificazione dell'ID del file:**
-   - Nell'URL del documento aperto, individuare e copiare l'ID del file.
+3. **Accesso al Foglio "Gestione Contratti e Comunicazioni":**
+    *   Tornare al foglio di lavoro principale di ConcordatoFacile.
+    *   Aprire il foglio "Gestione contratti e comunicazioni".
 
-4. **Accesso al foglio di gestione:**
-   - Aprire il foglio di calcolo 'Gestione contratti e comunicazioni'.
+4. **Ricerca della Riga del Contratto tramite ID File:**
+    *   Utilizzare la funzione di ricerca (**Ctrl+F** o **Cmd+F**) per cercare l'ID del file precedentemente copiato.
+    *   Questo permetterà di individuare la riga corrispondente al contratto da modificare.
 
-5. **Localizzazione della riga del contratto:**
-   - Utilizzare la combinazione Ctrl+F (o Cmd+F su Mac) per cercare l'ID precedentemente copiato.
-   - Questo permetterà di trovare la riga corrispondente al contratto da modificare.
+5. **Recupero del Submission ID:**
+    *   Nella riga individuata, individuare la colonna che contiene il "Submission ID" del contratto.
+    *   Copiare il "Submission ID".
 
-6. **Identificazione del Submission ID:**
-   - Nella riga individuata, cercare la colonna che contiene il Submission ID per questo contratto.
-   - Copiare il Submission ID.
+6. **Ricerca del Modulo nel Foglio "Archivio Moduli" tramite Submission ID:**
+    *   Aprire il foglio "Archivio Moduli".
+    *   Utilizzare la funzione di ricerca per cercare il "Submission ID" copiato.
 
-7. **Ricerca nel foglio 'Archivio moduli':**
-   - Passare al foglio 'Archivio moduli'.
-   - Usare nuovamente Ctrl+F (o Cmd+F) per cercare il Submission ID copiato.
+7. **Rimozione del Flag "Elaborato":**
+    *   Una volta individuata la riga corrispondente, individuare la prima colonna, denominata "Elaborati".
+    *   Eliminare il "Sì" presente nella cella di questa colonna. **Questa operazione rimuove il flag di elaborazione e reinserisce il modulo nella coda di elaborazione.**
 
-8. **Rimozione del flag di elaborazione:**
-   - Una volta trovata la riga corrispondente, individuare la colonna A.
-   - Eliminare il "Sì" presente in questa colonna, che indica che il modulo è stato elaborato.
+8. **Rielaborazione del Modulo:**
+    *   Il modulo apparirà nuovamente come non elaborato nel foglio "Modulo in Elaborazione".
+    *   **Procedere con la normale elaborazione del modulo, seguendo le istruzioni a partire dalla Sezione 6 di questa guida, apportando le modifiche necessarie ai dati.**
 
-9. **Rielaborazione del modulo:**
-   - Con la rimozione del "Sì", il modulo tornerà in coda per l'elaborazione.
-   - Procedere con una nuova elaborazione del modulo, correggendo i dati che hanno reso necessaria la modifica.
+9. **Gestione del Nuovo Contratto Generato:**
+    *   Dopo aver generato il nuovo contratto corretto, **NON utilizzare la funzione "Archivia e invia bozza contratto" in questa fase.**
+    *   Copiare l'URL del nuovo contratto generato da Google Drive.
 
-10. **Gestione del nuovo contratto generato:**
-    - Dopo la generazione del nuovo contratto, non utilizzare la funzione 'Archivia e invia bozza contratto'.
-    - Invece, copiare l'URL del nuovo contratto generato.
+10. **Aggiornamento del Link nel Foglio "Gestione Contratti e Comunicazioni":**
+    *   Tornare al foglio "Gestione contratti e comunicazioni".
+    *   Individuare la riga del contratto originale (individuata al punto 4).
+    *   Nella colonna H, denominata "Link al contratto", sostituire il vecchio URL del contratto con l'URL del nuovo contratto appena generato.
 
-11. **Aggiornamento del link nel foglio di gestione:**
-    - Tornare al foglio 'Gestione contratti e comunicazioni'.
-    - Nella riga del contratto originale (identificata al punto 5), sostituire il vecchio URL con quello del nuovo contratto nella colonna H.
+11. **Eliminazione del Vecchio Contratto:**
+    *   Per evitare confusioni, eliminare il file del vecchio contratto da Google Drive.
 
-12. **Pulizia di Google Drive:**
-    - Eliminare il file del vecchio contratto da Google Drive per evitare confusioni future.
+Seguendo questa procedura, il contratto modificato verrà correttamente aggiornato nel sistema e sostituirà la versione precedente.
 
-Seguendo questi passaggi, è possibile modificare un contratto già elaborato e assicurarsi che il nuovo documento sostituisca correttamente quello precedente nel sistema.
+## 14. Supporto Tecnico e Contatti
 
-## 15. Supporto e Contatti
+Questa guida fornisce una panoramica completa delle funzionalità di ConcordatoFacile. Tuttavia, il sistema è in continua evoluzione e potrebbero essere rilasciati aggiornamenti o modifiche alle funzionalità descritte.
 
-Questa guida rappresenta una panoramica del processo di utilizzo di ConcordatoFacile, ma non è da considerarsi esaustiva o definitiva. Il sistema è in continua evoluzione e potrebbe subire modifiche nel tempo. Per qualsiasi problema o chiarimento, si prega di contattare il supporto tecnico all'indirizzo germ.riccio@gmail.com o telefonicamente al numero 3313815525.
+Per qualsiasi problema, dubbio o richiesta di chiarimento, non esitate a contattare il supporto tecnico:
+
+*   **Email:** [germ.riccio@gmail.com](mailto:germ.riccio@gmail.com)
+*   **Telefono:** 3313815525
+
+Il team di supporto è a disposizione per fornire assistenza e risolvere tempestivamente qualsiasi problematica riscontrata nell'utilizzo di ConcordatoFacile.
